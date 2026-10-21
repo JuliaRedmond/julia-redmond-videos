@@ -1,0 +1,68 @@
+{
+ "id": "01_3_Things_To_Stop_Saying",
+ "skill": "START",
+ "duration": 20,
+ "audioFrom": "JuliaRedmond_B2_01_3_Things_To_Stop_Saying.mp4",
+ "beats": [
+  {
+   "type": "hook",
+   "start": 0,
+   "end": 4.4,
+   "label": "HOMEWORK TIME",
+   "lines": [
+    "3 things to",
+    "stop saying",
+    "when your child",
+    "won't start"
+   ],
+   "highlight": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "strike",
+   "start": 4.4,
+   "end": 11.4,
+   "items": [
+    "Start your homework.",
+    "Why haven't you started yet?",
+    "It's easy, just do it."
+   ],
+   "firstAt": 0.25,
+   "every": 2.1
+  },
+  {
+   "type": "statement",
+   "start": 11.4,
+   "end": 14.6,
+   "lines": [
+    {
+     "t": "None of them tells your child",
+     "in": 0.1
+    },
+    {
+     "t": "what the first move actually is.",
+     "hl": "first move",
+     "in": 1.3,
+     "hlAt": 1.8
+    }
+   ],
+   "fit": "wrap"
+  },
+  {
+   "type": "try",
+   "start": 14.6,
+   "end": 17.6,
+   "label": "TRY",
+   "note": "What's your first step?"
+  },
+  {
+   "type": "end",
+   "start": 17.6,
+   "end": 20,
+   "tagline": "Less Reminding. More Ownership.",
+   "cta": "Free Parent Script Cards \u00b7 link in bio"
+  }
+ ]
+}
