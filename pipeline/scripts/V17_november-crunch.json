@@ -1,0 +1,74 @@
+{
+ "id": "V17",
+ "title": "Season Tip #1: November crunch",
+ "audience": "parent",
+ "theme": "7. Seasonal",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.35,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "SEASON TIP #1",
+   "lines": [
+    "November",
+    "crunch?",
+    {
+     "t": "Map it together.",
+     "hl": "Map it together."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Sit down for 10 minutes:"
+   ],
+   "items": [
+    "List what's due before break.",
+    "Mark the big dates.",
+    "Pick this week's first step."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "Which one is due first?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "They see the whole month…",
+     "hl": "They see the whole month…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…so you don't carry it.",
+     "hl": "you don't carry it."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "November crunch? Sit down for 10 minutes together: list what's due before break, mark the big dates, and pick this week's first step. Ask “Which one is due first?” Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#novemberschool",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "November Crunch: A 10-Minute Planning Chat (Parents)",
+  "pin_title": "November Planning Checklist for Kids' Schoolwork",
+  "pin_desc": "List what's due before break, mark the big dates, pick this week's first step. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

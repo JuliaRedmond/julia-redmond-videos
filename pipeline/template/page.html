@@ -6,7 +6,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1920px;overflow:hidden;background:var(--cream);font-family:Nunito,sans-serif;color:var(--navy)}
 #stage{position:relative;width:1080px;height:1920px;overflow:hidden}
-#bg{position:absolute;top:0;left:0;height:1920px;width:2662px;transform-origin:50% 50%;will-change:transform}
+#bg{position:absolute;top:0;left:0;height:1920px;width:2942px;transform-origin:50% 50%;will-change:transform}
 #veil{position:absolute;inset:0;background:rgba(251,246,236,.62)}
 .abs{position:absolute}
 #chip{position:absolute;top:270px;left:50%;font-weight:900;font-size:46px;letter-spacing:.14em;padding:14px 40px 14px 54px;border-radius:999px;white-space:nowrap}
@@ -45,10 +45,11 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--cream);fon
 #end img{display:block}
 .tag{font-weight:900;font-size:76px;line-height:1.1;text-align:center;margin-top:56px}
 .cta{max-width:940px;margin-top:56px;background:var(--navy);color:var(--cream);font-weight:800;font-size:56px;line-height:1.2;text-align:center;padding:30px 52px;border-radius:30px;text-wrap:balance}
+.cover{align-items:center;gap:34px}.bookimg{display:block;height:auto;border-radius:6px;box-shadow:0 24px 50px rgba(29,45,66,.35)}
 .notext .beat,.notext #chip,.notext #chips,.notext #end{visibility:hidden}
 </style>
 <div id="stage">
- <img id="bg" src="../assets/bg/desk-hero.webp">
+ <img id="bg" src="../assets/bg/desk-hero-1600.jpg">
  <div id="veil"></div>
  <div id="chip"></div><div id="chips"></div><div id="track"><div id="fill"></div></div>
  <div id="content"></div>
@@ -128,6 +129,11 @@ async function build(cfg){
    d.classList.add('bigchips');b.big=[];
    for(let r=0;r<3;r++){const row=el('div','bigrow');b.skills.slice(r*2,r*2+2).forEach(sk=>{const c=el('div','bigchip',sk);const col=SKILLS[sk],[tc,cr]=chipText(col);c.style.background=col;c.style.color=tc;H.bigContrast=Math.min(H.bigContrast||99,cr);row.appendChild(c);b.big.push(c)});d.appendChild(row)}
   }
+  if(b.type==='cover'){
+   d.classList.add('cover');const im=el('img','bookimg');im.src='../assets/covers/'+(b.book==='kids'?'efk-front-cover.png':'teen-workbook-cover.jpg');
+   im.style.width=(b.width||(b.book==='kids'?520:600))+'px';d.appendChild(im);await im.decode();b.img=im;b.bars=[];
+   b.ls=(b.lines||[]).map((L,i)=>{if(typeof L==='string')L={t:L};b.lines[i]=L;const l=el('div','sline small');rich(l,L.t,L.hl,b.bars);L.grp=L.hl?b.bars[b.bars.length-1]:null;L.in=.9+i*.6;d.appendChild(l);return l});
+  }
   if(b.type==='try'){
    const pre=b.pre||[],post=b.post||[];b.pres=pre.map(t=>{const l=el('div','sline small',t);l.style.marginBottom='18px';d.appendChild(l);return l});
    b.lab=b.label?el('div','trylabel',b.label):null;if(b.lab&&pre.length)b.lab.style.fontSize='calc(110px*var(--k,1))';if(b.lab)b.lab.style.marginBottom=pre.length||post.length?'40px':'60px';
@@ -170,7 +176,7 @@ async function build(cfg){
  // safe-zone audit (all beats laid out, untransformed)
  H.bounds=[];const chk=(e,name)=>{const r=e.getBoundingClientRect();if(!r.width&&!r.height)return;const w=Math.max(r.width,e.scrollWidth||0);
   if(r.left<59||r.left+w>1021||r.top<249||r.bottom>1571)H.bounds.push(`${name}: x ${r.left|0}-${(r.left+w)|0} y ${r.top|0}-${r.bottom|0}`)};
- for(const b of beats){if(b.el)b.el.querySelectorAll('.hline,.card,.sline,.chead,.sticky,.label,.trylabel,.bigchip').forEach(e=>chk(e,b.type+':'+(e.textContent||'').slice(0,28)))}
+ for(const b of beats){if(b.el)b.el.querySelectorAll('.hline,.card,.sline,.chead,.sticky,.label,.trylabel,.bigchip,.bookimg').forEach(e=>chk(e,b.type+':'+(e.textContent||'').slice(0,28)))}
  for(const e of document.querySelectorAll('#chip,.mchip,#end img,#end .tag,#end .cta'))chk(e,'fixed:'+(e.textContent||e.tagName).slice(0,20));
  document.querySelectorAll('.beat').forEach(e=>e.style.opacity=0);
 }
@@ -184,7 +190,7 @@ function buildEnd(b){
 function setT(t){
  const D=CFG.duration;
  const bg=document.getElementById('bg');const z=1+.12*clamp(t/17.6);
- bg.style.transform=`translateX(${-(2662-1080)*(CFG.focus!=null?CFG.focus:.42)}px) scale(${z}) translateX(${-t*4}px)`;
+ bg.style.transform=`translateX(${-(2942-1080)*(CFG.focus!=null?CFG.focus:.42)}px) scale(${z}) translateX(${-t*4}px)`;
  const endStart=CFG.beats.find(b=>b.type==='end').start;
  const endP=prog(t,endStart-.05,.3);
  if(H.chips.length){H.chips.forEach((o,i)=>{const p=eBack(prog(t,.05+i*.08,.45));let sc=.8+.2*p;
@@ -229,6 +235,10 @@ function setT(t){
     o.path.style.strokeDashoffset=1-eOut(prog(lt,o.in+.3,.3))});
   }
   if(b.type==='chips'){b.big.forEach((c,i)=>{const p=prog(lt,(.2+i*.35)*b.sc,.45),k=eBack(p);c.style.opacity=clamp(p*3);c.style.transform=`scale(${.6+.4*k}) translateY(${(1-k)*40}px)`})}
+  if(b.type==='cover'){
+   pop(b.img,prog(lt,.1,.6),{y:60,s:.8});
+   b.lines.forEach((L,i)=>{pop(b.ls[i],prog(lt,L.in,.5),{y:30,s:.8});if(L.grp)L.grp.forEach((bar,w)=>{bar.style.transform=`scaleX(${eOut(prog(lt,L.in+.5+w*.12,.4))}) skewX(-6deg)`})});
+  }
   if(b.type==='try'){
    const T=b.T;b.pres.forEach(l=>pop(l,prog(lt,T.pre,.45),{y:30,s:.8}));
    if(b.lab)pop(b.lab,prog(lt,T.lab,.4),{y:30,s:.6});

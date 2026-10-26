@@ -1,0 +1,67 @@
+{
+ "id": "V16",
+ "title": "The Six-Skill Path (teens)",
+ "audience": "teen",
+ "theme": "Launch: Six-Skill Path",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "THE SIX-SKILL PATH",
+   "lines": [
+    "One path.",
+    {
+     "t": "Six skills.",
+     "hl": "Six skills."
+    }
+   ]
+  },
+  {
+   "type": "chips",
+   "skills": [
+    "START",
+    "PLAN",
+    "TIME",
+    "FOCUS",
+    "ORGANIZE",
+    "FINISH"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "One connected process.",
+    {
+     "t": "No skill ranks above another.",
+     "hl": "No skill ranks above another."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Start where you're",
+    {
+     "t": "stuck.",
+     "hl": "stuck."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "START, PLAN, TIME, FOCUS, ORGANIZE, FINISH: one connected path, six skills, and no skill ranks above another. Start where you're stuck. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studyskills",
+   "#teenstudytips",
+   "#sixskillpath"
+  ],
+  "yt_title": "The Six-Skill Path: START to FINISH (Teen Study Skills)",
+  "pin_title": "The 6 Executive Function Skills for Teens: START to FINISH",
+  "pin_desc": "START, PLAN, TIME, FOCUS, ORGANIZE, FINISH: one connected path with no skill ranked above another. From the Julia Redmond executive function series for teens."
+ }
+}

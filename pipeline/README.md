@@ -12,6 +12,8 @@ node tools/render.js scripts/V01_homework-first-step.json x.mp4 --check     # au
 
 Needs Node + Playwright (Chromium) + ffmpeg. Also writes `<name>_copy.md` (caption + 3-5 hashtags, YouTube Shorts title, Pinterest title + description). Other flags: `--stills=0.4,5,12` (PNG frames), `--silent` (no music).
 
+`python3 tools/contrast.py <stills>` checks navy text against the background (needs 4.5:1; make stills with `--stills=... --notext`).
+
 `--check` does two audits: every text element stays inside the safe zone (top 250 px, bottom 350 px, sides 60 px), and **no two visible text elements ever overlap**, sampled every 1/20 s including mid-transition.
 
 ## Script file (`scripts/*.json`)
@@ -29,6 +31,7 @@ beats[]: first beat is always a hook; the rest are in any order
 | `try` | `label` ("SAY"/"ASK"/"TRY"), `note` (yellow sticky), `pre[]`, `post[]` |
 | `statement` | `lines[]` of `{t, hl, strike}` (`hl` = substring that gets the yellow sweep) |
 | `checks` | `header[]`, `items[]` (tick cards in the skill colour) |
+| `cover` | `book` (`teen` or `kids`), `width` (default 600 / 520), `lines[]` (caption under the cover) |
 | `chips` | `skills[]` (six pills pop in one at a time; use for six-skill videos) |
 
 CTA rule (enforced by `--check`): teen-facing videos end on "Executive Functioning Workbook for Teens · link in bio"; parent-facing videos end on the Free Parent Script Cards or Free 5-Minute Homework Start Kit.
@@ -38,7 +41,8 @@ Label series so far: PARENT SCRIPT #n, STUDY HACK #n, ROUTINE #n, HOMEWORK RULE 
 ## What's in `assets/` and `template/`
 
 - `assets/logo/jr-monogram.png`: logo, used unmodified on the end card.
-- `assets/bg/desk-hero.webp`: desk area of the kids' book cover only (no people, no cover text), faded to cream at the top. Built from the front-cover image in the cover PDF; the PDF's other photo (people) is not used.
+- `assets/bg/desk-hero-1600.jpg`: the website's desk hero photo (from the website repo, `public/assets/`), used from week 2 on. Same faded look: 62% cream veil, slow pan and zoom. `desk-hero.webp` is the earlier cover-derived version used for V01-V14 (kept for reproducibility; V01-V14 videos were rendered with it).
+- `assets/covers/`: `teen-workbook-cover.jpg` (680x880, show ~600 px wide, never full-screen) and `efk-front-cover.png` (kids cover). Use unmodified via the `cover` beat.
 - `assets/ragtime-loop.m4a`: the original synthesized ragtime (`batch1-v2/_source/make_music_b1.py` + the compressor line in `batch2-v2/_source/README.md`). Matches the reference video's audio (0.99 correlation, same loudness, -20.7 LUFS). No samples.
 - `template/fonts/`: Nunito and Kalam (the reference's fonts; SIL OFL).
 - Skill colours: START green, PLAN blue, TIME orange, FOCUS purple, ORGANIZE red, FINISH deep blue (exactly as in the reference).

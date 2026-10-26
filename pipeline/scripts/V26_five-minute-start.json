@@ -1,0 +1,58 @@
+{
+ "id": "V26",
+ "title": "Season Tip #4: the 5-minute start",
+ "audience": "teen",
+ "theme": "7. Seasonal",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.35,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "SEASON TIP #4",
+   "lines": [
+    "Dreading",
+    "term-end",
+    {
+     "t": "work?",
+     "hl": "work?"
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Start with 5 minutes:"
+   ],
+   "items": [
+    "Pick one task.",
+    "Set a 5-minute timer.",
+    "Stop or keep going."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Five minutes now",
+    {
+     "t": "beats a panic later.",
+     "hl": "beats a panic later."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Dreading term-end work? Start with 5 minutes: pick one task, set a 5-minute timer, then stop or keep going. Five minutes now beats a panic later. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#procrastination",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Dreading End-of-Term Work? Try a 5-Minute Start",
+  "pin_title": "The 5-Minute Start for Term-End Work (Teens)",
+  "pin_desc": "Pick one task, set a 5-minute timer, then stop or keep going. From the Julia Redmond executive function series for teens."
+ }
+}

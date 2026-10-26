@@ -1,0 +1,58 @@
+{
+ "id": "V24",
+ "title": "Mindset #4: stuck at the start line",
+ "audience": "teen",
+ "theme": "6. Mindset",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.3,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "MINDSET #4",
+   "lines": [
+    "Procrastinating?",
+    "Not lazy.",
+    {
+     "t": "Just stuck.",
+     "hl": "Just stuck."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Try a 2-minute start:"
+   ],
+   "items": [
+    "Set a 2-minute timer.",
+    "Open the work.",
+    "Do the first tiny piece."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Starting is the hard part.",
+    {
+     "t": "Two minutes is enough.",
+     "hl": "Two minutes is enough."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Procrastinating? Not lazy, just stuck at the start line. Set a 2-minute timer, open the work, and do the first tiny piece. Starting is the hard part, and two minutes is enough to start. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#procrastination",
+   "#studytips",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Procrastinating? Try the 2-Minute Start (Teens)",
+  "pin_title": "How to Stop Procrastinating: The 2-Minute Start",
+  "pin_desc": "Set a 2-minute timer, open the work, do the first tiny piece. From the Julia Redmond executive function series for teens."
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "V25",
+ "title": "The Six-Skill Path (parents)",
+ "audience": "parent",
+ "theme": "Launch: Six-Skill Path",
+ "skills": [
+  "FINISH"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Function for Kids · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "THE SIX-SKILL PATH",
+   "lines": [
+    "Six skills.",
+    "One connected",
+    {
+     "t": "path.",
+     "hl": "path."
+    }
+   ]
+  },
+  {
+   "type": "chips",
+   "skills": [
+    "START",
+    "PLAN",
+    "TIME",
+    "FOCUS",
+    "ORGANIZE",
+    "FINISH"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "No skill ranks",
+    "above another."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Kids build them",
+    {
+     "t": "one step at a time.",
+     "hl": "one step at a time."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "START, PLAN, TIME, FOCUS, ORGANIZE, FINISH: six skills, one connected path. No skill ranks above another, and kids build them one step at a time. Executive Function for Kids: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#sixskillpath",
+   "#independentlearners"
+  ],
+  "yt_title": "The Six-Skill Path: START to FINISH (Parents)",
+  "pin_title": "The Six Executive Function Skills Kids Can Build",
+  "pin_desc": "START, PLAN, TIME, FOCUS, ORGANIZE, FINISH: one connected process with no skill ranked above another. From the book Executive Function for Kids. For parents of kids 9-13."
+ }
+}

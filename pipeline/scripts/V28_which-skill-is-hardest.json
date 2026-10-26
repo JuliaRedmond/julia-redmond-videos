@@ -1,0 +1,55 @@
+{
+ "id": "V28",
+ "title": "Your turn: which skill is hardest?",
+ "audience": "teen",
+ "theme": "Launch: Teen workbook",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.4,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "YOUR TURN",
+   "lines": [
+    "Which skill",
+    "is hardest",
+    "for you?"
+   ]
+  },
+  {
+   "type": "chips",
+   "skills": [
+    "START",
+    "PLAN",
+    "TIME",
+    "FOCUS",
+    "ORGANIZE",
+    "FINISH"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Tell us in",
+    {
+     "t": "the comments.",
+     "hl": "the comments."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Which skill is hardest for you right now? START, PLAN, TIME, FOCUS, ORGANIZE, or FINISH? Tell us in the comments. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studyskills",
+   "#teenstudytips",
+   "#teenworkbook"
+  ],
+  "yt_title": "Which Executive Function Skill Is Hardest for You?",
+  "pin_title": "Which Executive Function Skill Is Hardest? START to FINISH",
+  "pin_desc": "START, PLAN, TIME, FOCUS, ORGANIZE, or FINISH: which one is hardest for you? From the Julia Redmond executive function series for teens."
+ }
+}

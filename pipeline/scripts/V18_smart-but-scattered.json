@@ -1,0 +1,67 @@
+{
+ "id": "V18",
+ "title": "Mindset #2: smart and scattered",
+ "audience": "teen",
+ "theme": "6. Mindset",
+ "skills": [
+  "ORGANIZE"
+ ],
+ "focus": 0.5,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "MINDSET #2",
+   "lines": [
+    "Smart and",
+    "scattered?",
+    {
+     "t": "Both can be true.",
+     "hl": "Both can be true."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Smart is who you are.",
+    {
+     "t": "Organized is a skill.",
+     "hl": "Organized is a skill."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Build it in 3 habits:"
+   ],
+   "items": [
+    "One place for assignments.",
+    "One 2-minute daily check.",
+    "One weekly sweep."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Skills can be built.",
+     "hl": "Skills can be built."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Smart and scattered? Both can be true. Smart is who you are, organized is a skill. Build it with one place for assignments, a 2-minute daily check, and a weekly sweep. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studytips",
+   "#teenstudytips",
+   "#organization"
+  ],
+  "yt_title": "Smart but Scattered? Organization Is a Skill (Teens)",
+  "pin_title": "Smart but Scattered: 3 Habits to Get Organized (Teens)",
+  "pin_desc": "Smart is who you are, organized is a skill. One place for assignments, a 2-minute daily check, a weekly sweep. From the Julia Redmond executive function series for teens."
+ }
+}
