@@ -35,6 +35,6 @@ Nothing here is scheduled or posted. Scheduling happens in Metricool after appro
 | Sat 11-07 | AM | V23 | Parent | 7 Seasonal | December break plan | Plan the break now: three small rules. | Free Parent Script Cards | BUILT, awaiting approval (week 2) |
 | Sat 11-07 | PM | V24 | Teen | 6 Mindset | Procrastinating? Try a 2-minute start | Not lazy. Just stuck at the start line. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 2) |
 | Sun 11-08 | AM | V25 | Parent | Launch: Six-Skill Path | The path for parents: one connected process | No skill ranks above another. | Executive Function for Kids (book; link TBC) | BUILT, awaiting approval (week 2) |
-| Sun 11-08 | PM | V26 | Teen | 7 Seasonal | Term-end 5-minute start | Five minutes now beats a panic later. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 2) |
+| Sun 11-08 | PM | V26 | Teen | 4 Phones & focus | Where your phone goes during homework | Where your phone goes during homework. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 2) |
 | Mon 11-09 | AM | V27 | Parent | 6 Mindset | 'Smart but scattered' isn't a label | Name the skill, not the kid. | Free Parent Script Cards | BUILT, awaiting approval (week 2) |
 | Mon 11-09 | PM | V28 | Teen | Launch: Teen workbook | Which skill is hardest for you? (comment prompt) | START? PLAN? TIME? Tell us. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 2) |

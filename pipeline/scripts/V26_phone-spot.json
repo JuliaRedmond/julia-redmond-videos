@@ -1,0 +1,68 @@
+{
+ "id": "V26",
+ "title": "Focus Hack #1: where your phone goes during homework",
+ "audience": "teen",
+ "theme": "4. Phones & focus",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.35,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "FOCUS HACK #1",
+   "lines": [
+    "Where your",
+    "phone goes",
+    {
+     "t": "during homework.",
+     "hl": "during homework."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Pick its spot:"
+   ],
+   "items": [
+    "Another room is best.",
+    "Face down is okay.",
+    "Check it at your break."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Out of reach is",
+    {
+     "t": "easier than willpower.",
+     "hl": "easier than willpower."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Phone at your break.",
+    {
+     "t": "Not in your hand.",
+     "hl": "Not in your hand."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Where does your phone go during homework? Another room is best, face down is okay, and you check it at your break. Out of reach is easier than willpower. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#phonefree",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Where Your Phone Goes During Homework (Focus Hack)",
+  "pin_title": "Where to Put Your Phone During Homework (Teen Focus Tip)",
+  "pin_desc": "Another room is best, face down is okay, check it at your break. A simple focus tip for teens from the Julia Redmond executive function series."
+ }
+}

@@ -35,7 +35,7 @@ R = [
  ("V23",P,"7 Seasonal","December break plan","Plan the break now: three small rules.",CARDS),
  ("V24",T,"6 Mindset","Procrastinating? Try a 2-minute start","Not lazy. Just stuck at the start line.",WB),
  ("V25",P,"Launch: Six-Skill Path","The path for parents: one connected process","No skill ranks above another.",BOOKP),
- ("V26",T,"7 Seasonal","Term-end 5-minute start","Five minutes now beats a panic later.",WB),
+ ("V26",T,"4 Phones & focus","Where your phone goes during homework","Where your phone goes during homework.",WB),
  ("V27",P,"6 Mindset","'Smart but scattered' isn't a label","Name the skill, not the kid.",CARDS),
  ("V28",T,"Launch: Teen workbook","Which skill is hardest for you? (comment prompt)","START? PLAN? TIME? Tell us.",WB),
 ]
