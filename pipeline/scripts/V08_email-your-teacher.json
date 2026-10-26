@@ -1,0 +1,68 @@
+{
+ "id": "V08",
+ "title": "Study Hack #3: a 3-line email to your teacher",
+ "audience": "teen",
+ "theme": "3. Study skills",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.55,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STUDY HACK #3",
+   "lines": [
+    "Emailing",
+    "your teacher?",
+    {
+     "t": "3 lines do it.",
+     "hl": "3 lines do it."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "The 3-line email:"
+   ],
+   "items": [
+    "Say hi and who you are.",
+    "Ask one clear question.",
+    "Say thanks."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Short and clear",
+    {
+     "t": "is easier to answer.",
+     "hl": "is easier to answer."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Asking for help",
+    {
+     "t": "is a skill. Not a flaw.",
+     "hl": "is a skill."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Nervous about emailing a teacher? Three lines is enough: say hi and who you are, ask one clear question, say thanks. Short and clear is easier to answer. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#studyskills",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "How to Email Your Teacher in 3 Lines (Study Hack)",
+  "pin_title": "How to Email a Teacher: A Simple 3-Line Template for Teens",
+  "pin_desc": "Say hi and who you are, ask one clear question, say thanks. A 3-line email template for teens from the Julia Redmond executive function series."
+ }
+}

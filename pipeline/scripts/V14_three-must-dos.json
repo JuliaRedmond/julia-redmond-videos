@@ -1,0 +1,68 @@
+{
+ "id": "V14",
+ "title": "Routine #6: pick 3 must-dos for the week",
+ "audience": "teen",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.5,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #6",
+   "lines": [
+    "Don't plan",
+    "everything.",
+    {
+     "t": "Pick three.",
+     "hl": "Pick three."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Sunday, 5 minutes:"
+   ],
+   "items": [
+    "Look at the week.",
+    "Circle 3 must-dos.",
+    "Do those first."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Three clear must-dos",
+    {
+     "t": "beat a giant to-do list.",
+     "hl": "beat a giant to-do list."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Everything else is",
+    {
+     "t": "a bonus.",
+     "hl": "a bonus."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Don't plan everything, pick three. Look at the week, circle 3 must-dos, and do those first. Three clear must-dos beat a giant to-do list. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#planning",
+   "#executivefunction",
+   "#teenroutine"
+  ],
+  "yt_title": "Pick 3 Must-Dos for the Week (Simple Teen Planner Trick)",
+  "pin_title": "Weekly Planning for Teens: Pick 3 Must-Dos",
+  "pin_desc": "Look at the week, circle 3 must-dos, do those first. A 5-minute weekly planning habit for teens from the Julia Redmond executive function series."
+ }
+}

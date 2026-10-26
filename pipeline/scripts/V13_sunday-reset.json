@@ -1,0 +1,74 @@
+{
+ "id": "V13",
+ "title": "Routine #5: Sunday 10-minute family reset",
+ "audience": "parent",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.4,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #5",
+   "lines": [
+    "Ten minutes",
+    "on Sunday =",
+    {
+     "t": "calmer Monday.",
+     "hl": "calmer Monday."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "The family reset:"
+   ],
+   "items": [
+    "Empty the backpacks.",
+    "Look at the week together.",
+    "Pick one thing to prep."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "What's one thing you want ready?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Small prep Sunday…",
+     "hl": "Small prep Sunday…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…fewer scrambles Monday.",
+     "hl": "fewer scrambles Monday."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Ten minutes on Sunday can make Monday calmer: empty the backpacks, look at the week together, and pick one thing to prep. Ask “What's one thing you want ready?” so the prep is theirs. Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#sundayreset",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Sunday 10-Minute Family Reset for a Calmer Monday",
+  "pin_title": "Sunday Reset Checklist for Families (10 Minutes)",
+  "pin_desc": "Empty the backpacks, look at the week together, pick one thing to prep. A 10-minute Sunday routine for parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}
