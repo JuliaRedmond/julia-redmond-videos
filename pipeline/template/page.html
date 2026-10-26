@@ -1,0 +1,113 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@font-face{font-family:Poppins;font-weight:600;src:url(fonts/poppins-latin-600-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:700;src:url(fonts/poppins-latin-700-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:800;src:url(fonts/poppins-latin-800-normal.woff2)}
+@font-face{font-family:"Nunito Sans";font-weight:200 1000;src:url(fonts/nunito-sans-latin-wght-normal.woff2)}
+@font-face{font-family:Lora;font-weight:400 700;font-style:normal;src:url(fonts/lora-latin-wght-normal.woff2)}
+@font-face{font-family:Lora;font-weight:400 700;font-style:italic;src:url(fonts/lora-latin-wght-italic.woff2)}
+:root{--ivory:#FAF6EE;--navy:#1C2E46;--gold:#A89477;--gold-lt:#DCCDA8;--card:#FFFDF8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ivory);font-family:"Nunito Sans",sans-serif;color:var(--navy)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden}
+.orb{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(168,148,119,.20),rgba(168,148,119,0) 68%)}
+#o1{width:1100px;height:1100px;left:-420px;top:-200px}
+#o2{width:1300px;height:1300px;right:-620px;bottom:-300px}
+#chip{position:absolute;top:276px;left:0;right:0;display:flex;justify-content:center}
+#chip span{font-family:Poppins;font-weight:700;font-size:40px;letter-spacing:.18em;padding:12px 38px 12px 50px;border-radius:999px;border:4px solid var(--navy);white-space:nowrap}
+#track{position:absolute;top:372px;left:120px;width:840px;height:8px;border-radius:5px;background:rgba(28,46,70,.12)}
+#fill{height:100%;border-radius:5px;width:0;background:var(--gold)}
+#content{position:absolute;left:110px;right:110px;top:430px;height:1110px}
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;opacity:0}
+.it{opacity:0;will-change:transform,opacity}
+.hline{font-family:Poppins;font-weight:800;font-size:calc(124px*var(--k,1));line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
+.sub{font-family:"Nunito Sans";font-weight:800;font-size:68px;line-height:1.25;margin-top:60px;text-wrap:balance}
+.sline{font-family:Poppins;font-weight:700;font-size:calc(108px*var(--k,1));line-height:1.14;letter-spacing:-.01em;text-wrap:balance}
+.sline+.sline{margin-top:30px}
+.hl{position:relative;display:inline-block;isolation:isolate;white-space:nowrap}
+.hl .bar{position:absolute;left:-12px;right:-12px;top:14%;bottom:2%;background:var(--gold-lt);z-index:-1;border-radius:10px;transform-origin:0 50%;transform:scaleX(0)}
+.label{font-family:Poppins;font-weight:700;font-size:52px;letter-spacing:.16em;padding:14px 38px 14px 52px;border-radius:14px;margin-bottom:44px}
+.label.no{border:4px solid var(--navy);color:var(--navy)}
+.label.yes{background:var(--navy);color:var(--ivory)}
+.card{position:relative;width:100%;border-radius:36px;padding:56px 52px;font-family:Lora;font-weight:600;font-size:calc(96px*var(--k,1));line-height:1.18;text-wrap:balance}
+.card.no{background:var(--card);border:4px solid rgba(28,46,70,.35);box-shadow:0 14px 34px rgba(28,46,70,.10);color:rgba(28,46,70,.72)}
+.card.yes{background:var(--navy);color:var(--ivory);box-shadow:0 22px 44px rgba(28,46,70,.30)}
+.card.yes em{font-style:italic}
+.qs{position:absolute;left:52px;right:52px;top:56px;color:transparent;text-decoration:line-through;text-decoration-thickness:9px;text-decoration-color:var(--navy);clip-path:inset(0 100% 0 0)}
+.note{font-family:"Nunito Sans";font-weight:800;font-size:64px;line-height:1.25;margin-top:48px;text-wrap:balance}
+.steps{width:100%;display:flex;flex-direction:column;gap:38px}
+.steps .title{font-family:Poppins;font-weight:700;font-size:56px;letter-spacing:.04em;margin-bottom:6px;text-align:center}
+.step{display:flex;align-items:center;gap:36px;text-align:left;background:var(--card);border:4px solid rgba(28,46,70,.18);border-radius:34px;padding:34px 40px;box-shadow:0 10px 26px rgba(28,46,70,.08)}
+.num{flex:none;width:104px;height:104px;border-radius:50%;background:var(--gold-lt);border:4px solid var(--navy);display:flex;align-items:center;justify-content:center;font-family:Poppins;font-weight:800;font-size:58px}
+.stext{font-family:Poppins;font-weight:700;font-size:calc(72px*var(--k,1));line-height:1.15;text-wrap:balance}
+#endbg{position:absolute;inset:0;background:var(--ivory);opacity:0}
+#end{position:absolute;inset:0;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 90px;text-align:center}
+#end img{width:620px;height:620px;display:block}
+.tag{font-family:Poppins;font-weight:700;font-size:60px;line-height:1.15;margin-top:36px;text-wrap:balance}
+.cta{margin-top:56px;background:var(--navy);color:var(--ivory);border-radius:36px;padding:32px 56px;max-width:900px}
+.cta .c1{font-family:"Nunito Sans";font-weight:900;font-size:56px;line-height:1.15;text-wrap:balance}
+.cta .c2{font-family:"Nunito Sans";font-weight:700;font-size:42px;margin-top:10px;letter-spacing:.04em;color:var(--gold-lt)}
+</style>
+<div id="stage">
+ <div class="orb" id="o1"></div><div class="orb" id="o2"></div>
+ <div id="chip"></div><div id="track"><div id="fill"></div></div>
+ <div id="content"></div>
+ <div id="endbg"></div><div id="end"></div>
+</div>
+<script>
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eOut=x=>1-Math.pow(1-x,3);
+const eBack=x=>{const c=1.5;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+let CFG,SC=[],TOTAL=0,ENDT=0;
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// *word* = gold highlight swipe, _word_ = italic accent (only in cards)
+function rich(s,d0){let n=0;return esc(s).replace(/\*([^*]+)\*/g,(m,w)=>`<span class="hl"><span class="bar" data-d="${(d0+.35+.15*n++).toFixed(2)}"></span>${w}</span>`)}
+function it(cls,html,d,a='up',style=''){return `<div class="it ${cls}" data-d="${d}" data-a="${a}" style="${style}">${html}</div>`}
+const K=s=>s.k?`--k:${s.k};`:'';
+const BUILD={
+ hook(s){const L=s.lines.map((l,i)=>it('hline',rich(l,-.2+i*.12),-.3+i*.14,'up',K(s))).join('');
+  return L+(s.sub?it('sub',rich(s.sub,.6),.6):'')},
+ not(s){return it('label no','NOT THIS',0,'pop')+
+  `<div class="it card no" data-d=".25" data-a="up" style="${K(s)}">${esc(s.quote)}<div class="qs" data-sd="${s.strikeAt??1.6}">${esc(s.quote)}</div></div>`+
+  (s.note?it('note',rich(s.note,1.8),1.9):'')},
+ say(s){return it('label yes','SAY THIS',0,'pop')+
+  it('card yes',esc(s.quote),.25,'up',K(s))+(s.note?it('note',rich(s.note,1.2),1.2):'')},
+ steps(s){return `<div class="steps">`+(s.title?it('title',esc(s.title),0,'fade'):'')+
+  s.steps.map((t,i)=>it('step',`<div class="num">${i+1}</div><div class="stext" style="${K(s)}">${rich(t,s.at?s.at[i]:.4+i*1.5)}</div>`,s.at?s.at[i]:.4+i*1.5,'up')).join('')+`</div>`},
+ statement(s){return s.lines.map((l,i)=>it('sline',rich(l,.1+i*.9),.1+i*.9,'up',K(s))).join('')}
+};
+function build(cfg){
+ CFG=cfg;let t=0;const C=document.getElementById('content');C.innerHTML='';SC=[];
+ for(const s of cfg.scenes){const el=document.createElement('div');el.className='scene';el.innerHTML=BUILD[s.type](s);C.appendChild(el);
+  SC.push({s,el,start:t,end:t+s.dur,items:[...el.querySelectorAll('.it')],bars:[...el.querySelectorAll('.bar')],strikes:[...el.querySelectorAll('.qs')]});t+=s.dur}
+ ENDT=t;TOTAL=t+cfg.end.dur;cfg.duration=TOTAL;
+ document.getElementById('chip').innerHTML=`<span style="color:var(--navy)">${esc(cfg.tag)}</span>`;
+ const E=document.getElementById('end');
+ E.innerHTML=`<img id="logo" src="../assets/logo/jr-monogram.png"><div class="tag" id="tag">${esc(cfg.end.tagline)}</div><div class="cta" id="cta"><div class="c1">${esc(cfg.end.cta)}</div><div class="c2">${esc(cfg.end.cta2||'Link in bio')}</div></div>`;
+ window.TOTAL=TOTAL;return TOTAL;
+}
+function setT(t){
+ document.getElementById('o1').style.transform=`translate(${Math.sin(t*.35)*70}px,${Math.cos(t*.3)*60}px)`;
+ document.getElementById('o2').style.transform=`translate(${Math.cos(t*.28)*80}px,${Math.sin(t*.33)*70}px)`;
+ const inEnd=t>=ENDT;
+ document.getElementById('fill').style.width=(clamp(t/ENDT)*100)+'%';
+ for(const sc of SC){const lt=t-sc.start,dur=sc.end-sc.start;
+  const vis=t>=sc.start&&t<sc.end;
+  sc.el.style.opacity=vis?clamp((dur-lt)/.25):0;
+  if(!vis)continue;
+  for(const e of sc.items){const d=+e.dataset.d,p=clamp((lt-d)/.5),a=e.dataset.a;
+   e.style.opacity=eOut(clamp((lt-d)/.35));
+   if(a==='pop'){e.style.transform=`scale(${.8+.2*eBack(p)})`}
+   else if(a==='fade'){e.style.transform='none'}
+   else e.style.transform=`translateY(${(1-eBack(p))*46}px)`}
+  for(const b of sc.bars)b.style.transform=`scaleX(${eOut(clamp((lt-(+b.dataset.d))/.45))})`;
+  for(const k of sc.strikes)k.style.clipPath=`inset(0 ${(1-eOut(clamp((lt-(+k.dataset.sd))/.5)))*100}% 0 0)`}
+ const le=t-ENDT;
+ const eb=document.getElementById('endbg'),e=document.getElementById('end');
+ eb.style.opacity=inEnd?clamp(le/.3):0;e.style.opacity=inEnd?1:0;
+ document.getElementById('chip').style.opacity=inEnd?0:1;document.getElementById('track').style.opacity=inEnd?0:1;
+ if(inEnd){const L=document.getElementById('logo'),T=document.getElementById('tag'),C=document.getElementById('cta');
+  const f=(el,d,dy)=>{const p=clamp((le-d)/.5);el.style.opacity=eOut(clamp((le-d)/.35));el.style.transform=`translateY(${(1-eBack(p))*dy}px)`};
+  f(L,.15,30);f(T,.7,40);f(C,1.2,50)}
+}
+</script>
