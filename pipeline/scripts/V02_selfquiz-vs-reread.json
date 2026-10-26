@@ -1,0 +1,70 @@
+{
+ "id": "V02",
+ "title": "Study Hack #1: self-quiz instead of rereading",
+ "audience": "teen",
+ "theme": "3. Study skills",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.3,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STUDY HACK #1",
+   "lines": [
+    "Rereading your",
+    "notes feels like",
+    {
+     "t": "studying.",
+     "hl": "studying."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Try the 3-step self-quiz:"
+   ],
+   "items": [
+    "Close your notes.",
+    "Write what you remember.",
+    "Open them. Fix the gaps."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "The gaps are"
+    },
+    {
+     "t": "your study list.",
+     "hl": "your study list."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "It feels harder.",
+    {
+     "t": "That's the point.",
+     "hl": "That's the point."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Rereading feels productive, but quizzing yourself is usually the stronger study move. Close your notes, write what you remember, then open them and fix the gaps. Those gaps are your study list. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#studyskills",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Stop Rereading Your Notes: Try This 3-Step Self-Quiz",
+  "pin_title": "Self-Quiz Method: A Better Way to Study Than Rereading",
+  "pin_desc": "Close your notes, write what you remember, then check and fix the gaps. This 3-step self-quiz turns studying into a skill you can build, from the Julia Redmond executive function series for teens. See the Executive Functioning Workbook for Teens: 30 short sessions across six skills."
+ }
+}

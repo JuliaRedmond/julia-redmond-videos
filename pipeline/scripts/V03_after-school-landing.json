@@ -1,0 +1,74 @@
+{
+ "id": "V03",
+ "title": "Routine #1: a landing before homework",
+ "audience": "parent",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.4,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #1",
+   "lines": [
+    "Give them a",
+    {
+     "t": "landing",
+     "hl": "landing"
+    },
+    "before homework."
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "After-school order:"
+   ],
+   "items": [
+    "Snack and water.",
+    "Move your body.",
+    "Then: the first step."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "When do you want to start?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "They pick the time…",
+     "hl": "pick the time…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…so the start is theirs.",
+     "hl": "the start is theirs."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Homework the second they walk in? Try a landing first: snack and water, move around, then the first step. And let them pick the start time: “When do you want to start?” Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#afterschoolroutine",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "After-School Routine: Give Kids a Landing Before Homework",
+  "pin_title": "After-School Routine: Snack, Move, Then Start Homework",
+  "pin_desc": "A simple after-school order for parents of kids 9-13: snack and water, move your body, then the first step. Let your child pick the start time so the start is theirs. Part of the Julia Redmond executive function series for parents. Free 5-Minute Homework Start Kit available from Julia Redmond Publishing."
+ }
+}

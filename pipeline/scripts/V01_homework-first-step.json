@@ -1,0 +1,66 @@
+{
+ "id": "V01",
+ "title": "Parent Script #1: the very first step",
+ "audience": "parent",
+ "theme": "1. Parent scripts",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.45,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #1",
+   "lines": [
+    "Instead of",
+    "\"Why haven't you",
+    {
+     "t": "started yet?\"…"
+    }
+   ],
+   "strike": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "What's the very first step?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "They name the step…",
+     "hl": "name the step…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…and own the start.",
+     "hl": "own the start."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Instead of “Why haven't you started yet?” try “What's the very first step?” When your child names the step, they own the start. Less reminding, more ownership. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#homeworkhelp",
+   "#independentlearners"
+  ],
+  "yt_title": "Homework Fight? Say This Instead (Parent Script)",
+  "pin_title": "What to Say Instead of “Why Haven't You Started?”",
+  "pin_desc": "A simple parent script for homework standoffs: ask “What's the very first step?” so your child names the start and owns it. Part of the Julia Redmond executive function series for parents of kids 9-13. Free Parent Script Cards available from Julia Redmond Publishing."
+ }
+}
