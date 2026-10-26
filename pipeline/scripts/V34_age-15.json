@@ -1,0 +1,58 @@
+{
+ "id": "V34",
+ "title": "Independence #2: at 15, own your plan",
+ "audience": "teen",
+ "theme": "5. Independence by age",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "INDEPENDENCE #2",
+   "lines": [
+    "At 15,",
+    "you can own",
+    {
+     "t": "your plan.",
+     "hl": "your plan."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Try owning:"
+   ],
+   "items": [
+    "Your weekly schedule.",
+    "Your deadlines.",
+    "Asking for help early."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Owning it is a skill.",
+    {
+     "t": "You build it by doing.",
+     "hl": "You build it by doing."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "At 15, you can own your plan: your weekly schedule, your deadlines, and asking for help early. Owning it is a skill, and you build it by doing. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#teenstudytips",
+   "#studyskills",
+   "#independence"
+  ],
+  "yt_title": "At 15, You Can Own Your Plan (Teen Independence)",
+  "pin_title": "What Teens Can Own: Schedule, Deadlines, Asking for Help",
+  "pin_desc": "Your weekly schedule, your deadlines, asking for help early. From the Julia Redmond executive function series for teens."
+ }
+}

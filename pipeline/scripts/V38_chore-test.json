@@ -1,0 +1,58 @@
+{
+ "id": "V38",
+ "title": "Independence #4: chores are planning practice",
+ "audience": "teen",
+ "theme": "5. Independence by age",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.3,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "INDEPENDENCE #4",
+   "lines": [
+    "Chores are",
+    "planning",
+    {
+     "t": "practice.",
+     "hl": "practice."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Try the chore test:"
+   ],
+   "items": [
+    "Guess how long it takes.",
+    "Time it.",
+    "Adjust your guess."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Better guesses make",
+    {
+     "t": "better plans.",
+     "hl": "better plans."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Chores are planning practice. Guess how long it takes, time it, then adjust your guess. Better guesses make better plans. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#timemanagement",
+   "#executivefunction",
+   "#studyskills",
+   "#teenstudytips"
+  ],
+  "yt_title": "Chores Are Planning Practice (The Chore Test)",
+  "pin_title": "The Chore Test: Guess, Time It, Adjust (Teens)",
+  "pin_desc": "Guess how long it takes, time it, adjust your guess. From the Julia Redmond executive function series for teens."
+ }
+}

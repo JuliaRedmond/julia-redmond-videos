@@ -1,0 +1,61 @@
+{
+ "id": "V36",
+ "title": "Story Short #3: Diego's missing turn-in",
+ "audience": "teen",
+ "theme": "8. Story shorts",
+ "skills": [
+  "FINISH"
+ ],
+ "focus": 0.4,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STORY SHORT #3",
+   "lines": [
+    "Diego did it.",
+    "Then forgot",
+    {
+     "t": "to turn it in.",
+     "hl": "to turn it in."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Finished. Still in his bag.",
+    "Not turned in."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "THE FIX",
+   "note": "Last step: turn it in, then check.",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Done means",
+    {
+     "t": "turned in.",
+     "hl": "turned in."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A made-up story: Diego finished his homework, but it stayed in his bag. The fix: make the last step “turn it in, then check.” Done means turned in. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studytips",
+   "#teenstudytips",
+   "#storytime"
+  ],
+  "yt_title": "Diego Finished But Never Turned It In: The Last-Step Fix",
+  "pin_title": "Done Means Turned In: A Last-Step Habit for Teens",
+  "pin_desc": "A made-up story about Diego and the habit that makes homework count: turn it in, then check. From the Julia Redmond executive function series for teens."
+ }
+}

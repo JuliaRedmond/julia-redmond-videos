@@ -1,0 +1,61 @@
+{
+ "id": "V30",
+ "title": "Story Short #1: Marcus and the blank page",
+ "audience": "teen",
+ "theme": "8. Story shorts",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STORY SHORT #1",
+   "lines": [
+    "Marcus has",
+    "an essay due",
+    {
+     "t": "Friday.",
+     "hl": "Friday."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "It's Wednesday.",
+    "The page is still blank."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "THE FIX",
+   "note": "Write one bad sentence on purpose.",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Now it's a draft…",
+    {
+     "t": "…not a blank page.",
+     "hl": "not a blank page."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A made-up story: Marcus has an essay due Friday and a blank page. The fix: write one bad sentence on purpose. Now it's a draft, not a blank page. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studytips",
+   "#teenstudytips",
+   "#storytime"
+  ],
+  "yt_title": "Marcus and the Blank Page: A Writing Start Trick (Story)",
+  "pin_title": "A Trick for Starting an Essay: Write One Bad Sentence",
+  "pin_desc": "A made-up story about Marcus, a blank page, and the one-bad-sentence start. From the Julia Redmond executive function series for teens."
+ }
+}

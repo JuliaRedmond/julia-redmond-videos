@@ -1,0 +1,64 @@
+{
+ "id": "V41",
+ "title": "Independence #5: chores build planning",
+ "audience": "parent",
+ "theme": "5. Independence by age",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.45,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "INDEPENDENCE #5",
+   "lines": [
+    "Chores",
+    "build",
+    {
+     "t": "planning.",
+     "hl": "planning."
+    }
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "How long do you think it'll take?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Guess. Time it. Compare.",
+     "hl": "Guess. Time it. Compare."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Better guesses make",
+    {
+     "t": "better plans.",
+     "hl": "better plans."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Chores build planning. Ask “How long do you think it'll take?” then guess, time it, compare. Better guesses make better plans. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#chores",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Chores Build Planning Skills: Ask This Question",
+  "pin_title": "Chores That Build Planning Skills: What to Ask",
+  "pin_desc": "Ask “How long do you think it'll take?” Guess, time it, compare. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}
