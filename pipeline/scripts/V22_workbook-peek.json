@@ -1,0 +1,58 @@
+{
+ "id": "V22",
+ "title": "Workbook Peek: 30 sessions, 6 skills",
+ "audience": "teen",
+ "theme": "Launch: Teen workbook",
+ "skills": [
+  "FINISH"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "WORKBOOK PEEK",
+   "lines": [
+    "30 short",
+    "sessions.",
+    {
+     "t": "6 skills.",
+     "hl": "6 skills."
+    }
+   ]
+  },
+  {
+   "type": "cover",
+   "book": "teen",
+   "width": 600,
+   "lines": [
+    {
+     "t": "Less Stress, More Free Time.",
+     "hl": "Less Stress, More Free Time."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Small steps.",
+    {
+     "t": "Real progress.",
+     "hl": "Real progress."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "30 short sessions. 6 skills. Less Stress, More Free Time. Executive Functioning Workbook for Teens: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#studyskills",
+   "#teenstudytips",
+   "#teenworkbook"
+  ],
+  "yt_title": "Executive Functioning Workbook for Teens: 30 Short Sessions",
+  "pin_title": "Executive Functioning Workbook for Teens (Ages 13-16)",
+  "pin_desc": "30 short sessions, 6 skills, less stress and more free time. For ages 13-16. From the Raising Independent Learners series."
+ }
+}

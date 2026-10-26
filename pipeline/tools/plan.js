@@ -5,6 +5,7 @@ const TAG='Less Reminding. More Ownership.';
 function lastEvent(b){
  if(b.type==='statement')return Math.max(...b.lines.map((l,i)=>{l=typeof l==='string'?{t:l}:l;return .1+i*1.2+(l.strike?1.4:(l.hl?1.05:0))}));
  if(b.type==='try')return (!b.label?.length?.7:(b.pre?.length?.95:.3))+.7;
+ if(b.type==='cover')return 1.2+((b.lines||[]).length?(b.lines.length-1)*.6+.6:0);
  if(b.type==='chips')return .2+5*.35+.45;
  if(b.type==='checks'){const first=(b.header||[]).length?.75:.35;return first+(b.items.length-1)*1.4+.75}
  throw new Error('no timing for beat type '+b.type);

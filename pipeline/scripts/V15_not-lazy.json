@@ -1,0 +1,63 @@
+{
+ "id": "V15",
+ "title": "Mindset #1: stuck isn't lazy",
+ "audience": "parent",
+ "theme": "6. Mindset",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.4,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "MINDSET #1",
+   "lines": [
+    "Stuck isn't",
+    "the same as",
+    {
+     "t": "lazy.",
+     "hl": "lazy."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Starting is a skill…",
+     "hl": "Starting is a skill…"
+    }
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "What's the smallest first step?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…and skills can be built.",
+     "hl": "skills can be built."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Stuck isn't the same as lazy. Starting is a skill, and skills can be built. Try asking: “What's the smallest first step?” Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#procrastination",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Procrastination Isn't Laziness: Try This Instead (Parents)",
+  "pin_title": "Procrastination Isn't Laziness: What to Ask Instead",
+  "pin_desc": "Stuck isn't the same as lazy. Starting is a skill, and skills can be built. Ask “What's the smallest first step?” For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

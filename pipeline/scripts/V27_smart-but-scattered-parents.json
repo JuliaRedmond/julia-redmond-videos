@@ -1,0 +1,65 @@
+{
+ "id": "V27",
+ "title": "Mindset #5: name the skill",
+ "audience": "parent",
+ "theme": "6. Mindset",
+ "skills": [
+  "ORGANIZE"
+ ],
+ "focus": 0.5,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "MINDSET #5",
+   "lines": [
+    "“Smart but",
+    "scattered”?",
+    {
+     "t": "Name the skill.",
+     "hl": "Name the skill."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Name the skill…",
+    {
+     "t": "…not the kid.",
+     "hl": "not the kid."
+    }
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "Which part feels hardest right now?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Labels stick.",
+    {
+     "t": "Skills grow.",
+     "hl": "Skills grow."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "“Smart but scattered”? Name the skill, not the kid. Try asking: “Which part feels hardest right now?” Labels stick, skills grow. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#growthmindset",
+   "#independentlearners"
+  ],
+  "yt_title": "“Smart but Scattered”: Name the Skill, Not the Kid",
+  "pin_title": "What to Say Instead of “Smart but Scattered”",
+  "pin_desc": "Name the skill, not the kid. Ask “Which part feels hardest right now?” For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

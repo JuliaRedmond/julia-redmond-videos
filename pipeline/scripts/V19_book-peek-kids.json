@@ -1,0 +1,59 @@
+{
+ "id": "V19",
+ "title": "Book Peek: Executive Function for Kids",
+ "audience": "parent",
+ "theme": "Launch: Executive Function for Kids",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.4,
+ "cta": "Executive Function for Kids · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "BOOK PEEK",
+   "lines": [
+    "Less reminding.",
+    {
+     "t": "More ownership.",
+     "hl": "More ownership."
+    }
+   ]
+  },
+  {
+   "type": "cover",
+   "book": "kids",
+   "width": 520,
+   "lines": [
+    {
+     "t": "A Homeschool Parent's Guide",
+     "hl": "A Homeschool Parent's Guide"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Less procrastination.",
+    "Better time management.",
+    {
+     "t": "More independent schoolwork.",
+     "hl": "More independent schoolwork."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Less reminding, more ownership. Executive Function for Kids: A Homeschool Parent's Guide to Less Procrastination, Better Time Management, and More Independent Schoolwork. Link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#homeschoolbooks",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Executive Function for Kids: A Homeschool Parent's Guide",
+  "pin_title": "Executive Function for Kids: A Homeschool Parent's Guide (Book)",
+  "pin_desc": "A homeschool parent's guide to less procrastination, better time management, and more independent schoolwork, from the Raising Independent Learners series. For parents of kids 9-13."
+ }
+}

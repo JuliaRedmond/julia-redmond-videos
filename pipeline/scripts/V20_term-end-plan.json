@@ -1,0 +1,67 @@
+{
+ "id": "V20",
+ "title": "Season Tip #2: work backward",
+ "audience": "teen",
+ "theme": "7. Seasonal",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "SEASON TIP #2",
+   "lines": [
+    "Term-end",
+    "crunch?",
+    {
+     "t": "Work backward.",
+     "hl": "Work backward."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Work backward:"
+   ],
+   "items": [
+    "Write the due date.",
+    "Count back the steps.",
+    "Put step 1 on tonight's list."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Backward planning turns",
+    {
+     "t": "panic into steps.",
+     "hl": "panic into steps."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Start with step 1.",
+     "hl": "step 1."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Term-end crunch? Work backward: write the due date, count back the steps, and put step 1 on tonight's list. Backward planning turns panic into steps. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#timemanagement",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "End-of-Term Crunch? Plan Backward From the Due Date",
+  "pin_title": "How to Plan Backward From a Due Date (Teens)",
+  "pin_desc": "Write the due date, count back the steps, put step 1 on tonight's list. From the Julia Redmond executive function series for teens."
+ }
+}

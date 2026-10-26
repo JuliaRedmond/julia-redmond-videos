@@ -6,7 +6,7 @@ const {chromium}=require('playwright');
 const {spawn}=require('child_process');const {plan,MIN,MAXD}=require('./plan.js');const fs=require('fs');const path=require('path');
 const [,, scriptPath, outMp4, ...rest]=process.argv;
 const stills=(rest.find(a=>a.startsWith('--stills='))||'').split('=')[1];
-const check=rest.includes('--check'), silent=rest.includes('--silent'), copyOnly=rest.includes('--copy-only');
+const check=rest.includes('--check'), silent=rest.includes('--silent'), notext=rest.includes('--notext'), copyOnly=rest.includes('--copy-only');
 const FPS=30;
 const LINKS=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../links.json')));
 // which links belong to a video follows from its CTA (on-screen CTA stays "link in bio"; URLs only go in copy files)
@@ -66,7 +66,7 @@ ${(c.hashtags||[]).join(' ')} #Shorts
 
 // Text/box elements that must never overlap each other. Text-only ones use tight glyph rects, boxed ones use their box.
 const TEXT_SEL='.hline,.sline,.chead,.trylabel,.ctext,#end .tag';
-const BOX_SEL='.label,.card,.sticky,.bigchip,#end .cta,#end img';
+const BOX_SEL='.label,.card,.sticky,.bigchip,.bookimg,#end .cta,#end img';
 (async()=>{
  const script=JSON.parse(fs.readFileSync(scriptPath));const cfg=plan(script);const MUSIC=path.resolve(__dirname,'../assets/ragtime-loop.m4a');
  if(copyOnly){writeCopy(script,cfg.duration,outMp4);console.log('copy written',outMp4.replace(/\.mp4$/,'_copy.md'));return}
@@ -102,6 +102,7 @@ const BOX_SEL='.label,.card,.sticky,.bigchip,#end .cta,#end img';
      if(w>4&&h>4){const k=A.n+' x '+B.n;if(!hits.has(k))hits.set(k,t)}}}}
   for(const [k,t] of hits){bad++;console.log(`TEXT OVERLAP at t=${t.toFixed(2)}s: ${k}`)}
   console.log(bad?`${bad} problem(s)`:`checks OK: safe zone + no overlapping text (${total}s)`);await br.close();process.exit(bad?1:0)}
+ if(notext)await pg.evaluate(()=>document.body.classList.add('notext'));
  if(stills){for(const s of stills.split(',')){await pg.evaluate(t=>setT(t),+s);await pg.screenshot({path:`${outMp4.replace(/\.mp4$/,'')}_t${s}.png`})}await br.close();return}
  const N=Math.round(total*FPS);
  const audio=silent?['-f','lavfi','-i','anullsrc=r=44100:cl=stereo','-t',String(total),'-filter_complex','[1:a]anull[a]']
