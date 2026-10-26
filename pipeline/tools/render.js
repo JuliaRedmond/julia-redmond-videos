@@ -1,4 +1,4 @@
-// Usage: node render.js <script.json> <out.mp4> [--stills=0.3,5,12] [--check] [--silent]
+// Usage: node render.js <script.json> <out.mp4> [--stills=0.3,5,12] [--check] [--silent] [--copy-only]
 // Plans timings from the script, renders template/page.html frame-by-frame with headless Chromium, and encodes a
 // 1080x1920 30 fps MP4 with ffmpeg. Audio is assets/ragtime-loop.m4a (the original synthesized ragtime) unless --silent.
 // Also writes <out>_copy.md (caption, hashtags, YouTube Shorts title, Pinterest title + description).
@@ -6,13 +6,70 @@ const {chromium}=require('playwright');
 const {spawn}=require('child_process');const {plan,MIN,MAXD}=require('./plan.js');const fs=require('fs');const path=require('path');
 const [,, scriptPath, outMp4, ...rest]=process.argv;
 const stills=(rest.find(a=>a.startsWith('--stills='))||'').split('=')[1];
-const check=rest.includes('--check'), silent=rest.includes('--silent');
+const check=rest.includes('--check'), silent=rest.includes('--silent'), copyOnly=rest.includes('--copy-only');
 const FPS=30;
+const LINKS=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../links.json')));
+// which links belong to a video follows from its CTA (on-screen CTA stays "link in bio"; URLs only go in copy files)
+function linksFor(cta){
+ if(/Start Kit/.test(cta))return ['kit'];
+ if(/Parent Script/.test(cta))return ['cards'];
+ if(/Workbook for Teens/.test(cta))return ['teen-workbook','teen-amazon'];
+ if(/Executive Function for Kids/.test(cta))return ['kids-book'];
+ throw new Error('no link mapping for CTA: '+cta);
+}
+function writeCopy(script,total,outMp4){
+ const c=script.copy||{};const L=linksFor(script.cta).map(k=>LINKS[k]);const main=L[0];
+ const urls=L.map(l=>`- ${l.label}: ${l.url}`).join('\n');
+ fs.writeFileSync(outMp4.replace(/\.mp4$/,'_copy.md'),
+`# ${script.id} - ${script.title}
+
+- Audience: ${script.audience}
+- Theme: ${script.theme}
+- Length: ${total.toFixed(1)} s, 1080x1920, original synthesized ragtime track (swap for a trending sound in-app if you like)
+- On-screen CTA: ${script.cta} (no URL on screen)
+
+## Links for this video
+
+${urls}
+
+## Caption (TikTok / Instagram / Facebook)
+
+${c.caption}
+
+${main.label}: ${main.url}
+
+${(c.hashtags||[]).join(' ')}
+
+_TikTok and Instagram captions don't make links clickable, so keep "link in bio" there and put ${main.url} in the bio link. Facebook can keep the URL line._
+
+## YouTube Shorts
+
+**Title:** ${c.yt_title}
+
+**Description:**
+
+${(c.caption||'').replace(/:? ?link in bio\.?/i,'.').replace(/\.\./g,'.')}
+
+${urls}
+
+${(c.hashtags||[]).join(' ')} #Shorts
+
+## Pinterest
+
+**Pin title:** ${c.pin_title}
+
+**Pin description:** ${c.pin_desc} Learn more: ${main.url}
+
+**Destination link:** ${main.url}
+`);
+}
+
 // Text/box elements that must never overlap each other. Text-only ones use tight glyph rects, boxed ones use their box.
 const TEXT_SEL='.hline,.sline,.chead,.trylabel,.ctext,#end .tag';
 const BOX_SEL='.label,.card,.sticky,.bigchip,#end .cta,#end img';
 (async()=>{
  const script=JSON.parse(fs.readFileSync(scriptPath));const cfg=plan(script);const MUSIC=path.resolve(__dirname,'../assets/ragtime-loop.m4a');
+ if(copyOnly){writeCopy(script,cfg.duration,outMp4);console.log('copy written',outMp4.replace(/\.mp4$/,'_copy.md'));return}
  const br=await chromium.launch();const pg=await br.newPage({viewport:{width:1080,height:1920}});
  pg.on('pageerror',e=>{console.log('PAGE ERROR',e.message);process.exitCode=1});
  await pg.goto('file://'+path.resolve(__dirname,'../template/page.html'));
@@ -54,8 +111,6 @@ const BOX_SEL='.label,.card,.sticky,.bigchip,#end .cta,#end img';
   '-c:a','aac','-b:a','192k','-movflags','+faststart',outMp4],{stdio:['pipe','inherit','inherit']});
  for(let f=0;f<N;f++){await pg.evaluate(t=>setT(t),f/FPS);const buf=await pg.screenshot({type:'jpeg',quality:95});if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r))}
  ff.stdin.end();await new Promise(r=>ff.on('close',r));await br.close();
- const c=script.copy||{};
- fs.writeFileSync(outMp4.replace(/\.mp4$/,'_copy.md'),
-`# ${script.id} - ${script.title}\n\n- Audience: ${script.audience}\n- Theme: ${script.theme}\n- Length: ${total.toFixed(1)} s, 1080x1920, original synthesized ragtime track (no samples; swap for a trending sound in-app if you like)\n- On-screen CTA: ${script.cta}. No URL on screen; add the landing-page link only once supplied.\n\n## Caption (TikTok / Instagram / Facebook)\n\n${c.caption}\n\n${(c.hashtags||[]).join(' ')}\n\n## YouTube Shorts title\n\n${c.yt_title}\n\n## Pinterest\n\n**Pin title:** ${c.pin_title}\n\n**Pin description:** ${c.pin_desc}\n`);
+ writeCopy(script,total,outMp4);
  console.log('rendered',N,'frames,',total,'s ->',outMp4);
 })();
