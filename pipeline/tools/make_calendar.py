@@ -38,23 +38,39 @@ R = [
  ("V26",T,"4 Phones & focus","Where your phone goes during homework","Where your phone goes during homework.",WB),
  ("V27",P,"6 Mindset","'Smart but scattered' isn't a label","Name the skill, not the kid.",CARDS),
  ("V28",T,"Launch: Teen workbook","Which skill is hardest for you? (comment prompt)","START? PLAN? TIME? Tell us.",WB),
+ # week 3: phones & focus / independence by age / story shorts (all characters are made-up, text only)
+  ("V29",P,"6 Mindset","Let them fail small, safely","Let them fail small, safely.",CARDS),
+ ("V30",T,"8 Story shorts","Story: Marcus and the blank page (fix: one bad sentence)","Marcus has an essay due Friday.",WB),
+ ("V31",P,"5 Independence by age","What a 9-year-old can own","What a 9-year-old can own.",KIT),
+ ("V32",T,"4 Phones & focus","A phone deal you'll actually keep","Make a phone deal you'll actually keep.",WB),
+ ("V33",P,"8 Story shorts","Story: Priya's morning hunt (fix: where does it live?)","Every morning, Priya asks: Where's my...?",CARDS),
+ ("V34",T,"5 Independence by age","At 15, own your plan","At 15, you can own your plan.",WB),
+ ("V35",P,"5 Independence by age","What a 12-year-old can own","What a 12-year-old can own.",KIT),
+ ("V36",T,"8 Story shorts","Story: Diego's missing turn-in (fix: turn it in, then check)","Diego did it. Then forgot to turn it in.",WB),
+ ("V37",P,"4 Phones & focus","Parent script: what would be a fair screen deal?","Instead of announcing the screen rule...",CARDS),
+ ("V38",T,"5 Independence by age","Chores are planning practice (the chore test)","Chores are planning practice.",WB),
+ ("V39",P,"8 Story shorts","Story: Owen's five more minutes (fix: a visible timer)","Owen: Just five more minutes.",KIT),
+ ("V40",T,"4 Phones & focus","Silence it before you start","Silence it before you start.",WB),
+  ("V41",P,"1 Parent scripts","Parent script: when your child says 'This is pointless'","When they say 'This is pointless.'",CARDS),
+ ("V42",T,"8 Story shorts","Story: Fatima's group project (fix: a name next to every step)","Fatima's group project is due. Who's doing what?",WB),
 ]
 start = datetime.date(2026,10,27)  # Tue
 rows=[]
 for i,(vid,aud,theme,topic,hook,cta) in enumerate(R):
     d = start + datetime.timedelta(days=i//2)
     rows.append(dict(Date=d.isoformat(), Day=d.strftime("%a"), Slot="AM" if i%2==0 else "PM", ID=vid, Audience=aud, Theme=theme,
-        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved" if int(vid[1:])<=14 else ("BUILT, awaiting approval (week 2)" if int(vid[1:])<=28 else "Planned")))
+        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved" if int(vid[1:])<=42 else "Planned"))
 OUT.mkdir(exist_ok=True)
 with open(OUT/"content-calendar.csv","w",newline="") as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
-md=["# Content calendar: Tue 27 Oct to Mon 9 Nov 2026 (2 videos/day)\n",
+md=["# Content calendar: Tue 27 Oct to Mon 16 Nov 2026 (2 videos/day)\n",
 "Nothing here is scheduled or posted. Scheduling happens in Metricool after approval.\n",
 "- **Week 1 (27 Oct - 2 Nov):** Parent scripts, Everyday routines, Study skills.",
 "- **Week 2 (3 - 9 Nov, early-November launch week):** Mindset, Seasonal (November crunch / December break), and the Six-Skill Path / book videos.",
+"- **Week 3 (10 - 16 Nov):** Phones & focus, Independence by age, Story shorts, plus two parent videos (mindset, parent script) (Marcus, Priya, Diego, Owen, Fatima: made-up characters, text only, each ends with the fix).",
 "- Daily pattern: AM = parent-facing, PM = teen-facing.",
 "- **CTA rule:** parent-facing videos end on the Free Parent Script Cards or the Free 5-Minute Homework Start Kit (both are for parents of kids 9-13). Every teen-facing video ends on **Executive Functioning Workbook for Teens**. Parent launch videos point to *Executive Function for Kids* (link TBC). The renderer refuses a teen video with a parent CTA.",
-"- Not yet used (hold for weeks 3+): Phones & focus, Independence by age, Story shorts (Marcus, Priya, Diego, Owen, Fatima), January school reset.\n",
+"- Still unused: January school reset (save for mid-January launch week), plus more seasonal and story ideas.\n",
 "| Date | Slot | ID | Audience | Theme | Topic | Hook idea | CTA | Status |","|---|---|---|---|---|---|---|---|---|"]
 for r in rows: md.append(f"| {r['Day']} {r['Date'][5:]} | {r['Slot']} | {r['ID']} | {r['Audience']} | {r['Theme']} | {r['Topic']} | {r['Hook_idea']} | {r['CTA']} | {r['Status']} |")
 (OUT/"content-calendar.md").write_text("\n".join(md)+"\n")

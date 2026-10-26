@@ -1,0 +1,74 @@
+{
+ "id": "V29",
+ "title": "Mindset #6: let them fail small, safely",
+ "audience": "parent",
+ "theme": "6. Mindset",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.4,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "MINDSET #6",
+   "lines": [
+    "Let them",
+    "fail small,",
+    {
+     "t": "safely.",
+     "hl": "safely."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Small, safe misses:"
+   ],
+   "items": [
+    "A forgotten worksheet.",
+    "A wrongly packed bag.",
+    "A guess that ran long."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "What would you do differently?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Small misses now…",
+     "hl": "Small misses now…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…build big skills later.",
+     "hl": "build big skills later."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Let them fail small, safely. A forgotten worksheet, a wrongly packed bag, or a guess that ran long are small, safe misses. Instead of rescuing, ask: “What would you do differently?” Small misses now build big skills later. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#growthmindset",
+   "#independentlearners"
+  ],
+  "yt_title": "Let Them Fail Small, Safely (Parent Mindset)",
+  "pin_title": "Let Kids Fail Small: Safe Mistakes That Build Skills",
+  "pin_desc": "A forgotten worksheet or a wrongly packed bag is a small, safe miss. Instead of rescuing, ask “What would you do differently?” Small misses now build big skills later. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

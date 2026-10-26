@@ -1,0 +1,58 @@
+{
+ "id": "V32",
+ "title": "Focus Hack #2: a phone deal you'll keep",
+ "audience": "teen",
+ "theme": "4. Phones & focus",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "FOCUS HACK #2",
+   "lines": [
+    "Make a phone",
+    "deal you'll",
+    {
+     "t": "actually keep.",
+     "hl": "actually keep."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Offer it first:"
+   ],
+   "items": [
+    "Pick your homework window.",
+    "Phone away until it's done.",
+    "Review it on Sunday."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "A deal you helped write",
+    {
+     "t": "is easier to keep.",
+     "hl": "is easier to keep."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Want fewer phone fights? Offer a deal first: pick your homework window, keep the phone away until it's done, and review it on Sunday. A deal you helped write is easier to keep. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#screentime",
+   "#studytips",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Make a Phone Deal Your Parents Will Say Yes To",
+  "pin_title": "How Teens Can Make a Screen-Time Deal That Sticks",
+  "pin_desc": "Pick your homework window, keep the phone away until it's done, review it on Sunday. From the Julia Redmond executive function series for teens."
+ }
+}

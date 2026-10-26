@@ -1,0 +1,66 @@
+{
+ "id": "V37",
+ "title": "Parent Script #5: what would be a fair screen deal?",
+ "audience": "parent",
+ "theme": "4. Phones & focus",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.5,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #5",
+   "lines": [
+    "Instead of",
+    "announcing the",
+    "screen rule…"
+   ],
+   "strike": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "What would be a fair screen deal?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Kids keep the deals",
+    {
+     "t": "they helped make.",
+     "hl": "they helped make."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Write it down.",
+     "hl": "Write it down."
+    },
+    "Review it on Sunday."
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Instead of announcing the screen rule, try: “What would be a fair screen deal?” Kids keep the deals they helped make. Write it down and review it on Sunday. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#screentime",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Screen-Time Rules Kids Actually Keep (Parent Script)",
+  "pin_title": "What to Say to Set a Screen-Time Deal Kids Keep",
+  "pin_desc": "Ask “What would be a fair screen deal?” Kids keep deals they helped make. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

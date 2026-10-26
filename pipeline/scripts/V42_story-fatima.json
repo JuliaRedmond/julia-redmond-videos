@@ -1,0 +1,63 @@
+{
+ "id": "V42",
+ "title": "Story Short #5: Fatima's group project",
+ "audience": "teen",
+ "theme": "8. Story shorts",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.4,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STORY SHORT #5",
+   "lines": [
+    "Fatima's group",
+    "project is due.",
+    {
+     "t": "Who's doing what?",
+     "hl": "Who's doing what?"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Everyone thought",
+    "someone else had it."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "THE FIX",
+   "note": "Put a name next to every step.",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Names on steps turn",
+    "“someone” into",
+    {
+     "t": "“me.”",
+     "hl": "“me.”"
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A made-up story: Fatima's group project is due and everyone thought someone else had it. The fix: put a name next to every step. Names on steps turn “someone” into “me.” Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#groupproject",
+   "#studytips",
+   "#teenstudytips",
+   "#storytime"
+  ],
+  "yt_title": "Fatima's Group Project: Put a Name on Every Step (Story)",
+  "pin_title": "Group Project Tip: Put a Name Next to Every Step",
+  "pin_desc": "A made-up story about Fatima's group project and the name-next-to-every-step fix. From the Julia Redmond executive function series for teens."
+ }
+}

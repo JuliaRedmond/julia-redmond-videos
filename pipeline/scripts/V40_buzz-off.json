@@ -1,0 +1,57 @@
+{
+ "id": "V40",
+ "title": "Focus Hack #3: silence it before you start",
+ "audience": "teen",
+ "theme": "4. Phones & focus",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.35,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "FOCUS HACK #3",
+   "lines": [
+    "Silence it",
+    {
+     "t": "before you start.",
+     "hl": "before you start."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Before a focus round:"
+   ],
+   "items": [
+    "Do Not Disturb on.",
+    "Pick one task.",
+    "Phone check at the break."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Focus rounds work",
+    {
+     "t": "when the buzz is off.",
+     "hl": "when the buzz is off."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Silence it before you start. Do Not Disturb on, pick one task, and check your phone at the break. Focus rounds work when the buzz is off. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#focus",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Silence It Before You Start: A Focus Round Trick",
+  "pin_title": "Focus Round Setup for Teens: Do Not Disturb + One Task",
+  "pin_desc": "Do Not Disturb on, pick one task, phone check at the break. From the Julia Redmond executive function series for teens."
+ }
+}

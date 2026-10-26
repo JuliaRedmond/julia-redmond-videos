@@ -1,0 +1,70 @@
+{
+ "id": "V35",
+ "title": "Independence #3: what a 12-year-old can own",
+ "audience": "parent",
+ "theme": "5. Independence by age",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.4,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "INDEPENDENCE #3",
+   "lines": [
+    "What a",
+    {
+     "t": "12-year-old",
+     "hl": "12-year-old"
+    },
+    "can own."
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Ideas to try:"
+   ],
+   "items": [
+    "The weekly to-do list.",
+    "Asking a teacher a question.",
+    "Planning a project in steps."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "What do you want to own this week?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Hand over one job…"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…and stay nearby.",
+     "hl": "stay nearby."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "What can a 12-year-old own? Try the weekly to-do list, asking a teacher a question, and planning a project in steps. Ask “What do you want to own this week?” Hand over one job and stay nearby. Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#independentlearners",
+   "#homeschoolparent",
+   "#parentingtips"
+  ],
+  "yt_title": "What a 12-Year-Old Can Own (Independence Ideas)",
+  "pin_title": "Age 12 Independence Ideas: Planning and Asking for Help",
+  "pin_desc": "The weekly to-do list, asking a teacher a question, planning a project in steps. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

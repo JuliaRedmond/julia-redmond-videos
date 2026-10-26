@@ -1,0 +1,59 @@
+{
+ "id": "V33",
+ "title": "Story Short #2: Priya's morning hunt",
+ "audience": "parent",
+ "theme": "8. Story shorts",
+ "skills": [
+  "ORGANIZE"
+ ],
+ "focus": 0.4,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STORY SHORT #2",
+   "lines": [
+    "Every morning,",
+    "Priya asks:",
+    "\"Where's my…?\""
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Planner. Shoes. Charger.",
+    "The same hunt, every day."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "THE FIX",
+   "note": "Where does it live?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Everything gets a home",
+    {
+     "t": "by the door.",
+     "hl": "by the door."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A made-up story: Every morning, Priya asks “Where's my…?” The fix: ask “Where does it live?” and give everything a home by the door. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#morningroutine",
+   "#storytime"
+  ],
+  "yt_title": "Priya's Morning Hunt: The “Where Does It Live?” Fix (Story)",
+  "pin_title": "Morning Chaos Fix: Give Everything a Home by the Door",
+  "pin_desc": "A made-up story about Priya's daily hunt and one question that ends it: “Where does it live?” For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

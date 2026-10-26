@@ -1,0 +1,64 @@
+{
+ "id": "V39",
+ "title": "Story Short #4: Owen's five more minutes",
+ "audience": "parent",
+ "theme": "8. Story shorts",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.45,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STORY SHORT #4",
+   "lines": [
+    "Owen:",
+    "“Just five",
+    "more minutes.”"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Five minutes became",
+    "an hour."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "THE FIX",
+   "note": "Set a timer you can see.",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "The timer says stop…"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…so you don't have to.",
+     "hl": "you don't have to."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A made-up story: Owen says “just five more minutes” and it becomes an hour. The fix: a timer you can see. The timer says stop, so you don't have to. Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#timemanagement",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#storytime"
+  ],
+  "yt_title": "Owen's “Five More Minutes”: A Visible Timer Fix (Story)",
+  "pin_title": "Visible Timer Trick for “Five More Minutes”",
+  "pin_desc": "A made-up story about Owen, five more minutes, and a timer that does the stopping. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}
