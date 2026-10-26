@@ -4,7 +4,7 @@ Nothing here is scheduled or posted. Scheduling happens in Metricool after appro
 
 - **Week 1 (27 Oct - 2 Nov):** Parent scripts, Everyday routines, Study skills.
 - **Week 2 (3 - 9 Nov, early-November launch week):** Mindset, Seasonal (November crunch / December break), and the Six-Skill Path / book videos.
-- **Week 3 (10 - 16 Nov):** Phones & focus, Independence by age, Story shorts (Marcus, Priya, Diego, Owen, Fatima: made-up characters, text only, each ends with the fix).
+- **Week 3 (10 - 16 Nov):** Phones & focus, Independence by age, Story shorts, plus two parent videos (mindset, parent script) (Marcus, Priya, Diego, Owen, Fatima: made-up characters, text only, each ends with the fix).
 - Daily pattern: AM = parent-facing, PM = teen-facing.
 - **CTA rule:** parent-facing videos end on the Free Parent Script Cards or the Free 5-Minute Homework Start Kit (both are for parents of kids 9-13). Every teen-facing video ends on **Executive Functioning Workbook for Teens**. Parent launch videos point to *Executive Function for Kids* (link TBC). The renderer refuses a teen video with a parent CTA.
 - Still unused: January school reset (save for mid-January launch week), plus more seasonal and story ideas.
@@ -39,17 +39,17 @@ Nothing here is scheduled or posted. Scheduling happens in Metricool after appro
 | Sun 11-08 | PM | V26 | Teen | 4 Phones & focus | Where your phone goes during homework | Where your phone goes during homework. | Executive Functioning Workbook for Teens | Approved |
 | Mon 11-09 | AM | V27 | Parent | 6 Mindset | 'Smart but scattered' isn't a label | Name the skill, not the kid. | Free Parent Script Cards | Approved |
 | Mon 11-09 | PM | V28 | Teen | Launch: Teen workbook | Which skill is hardest for you? (comment prompt) | START? PLAN? TIME? Tell us. | Executive Functioning Workbook for Teens | Approved |
-| Tue 11-10 | AM | V29 | Parent | 4 Phones & focus | Give the phone a home | Give the phone a home for the night. | Free 5-Minute Homework Start Kit | BUILT, awaiting approval (week 3) |
-| Tue 11-10 | PM | V30 | Teen | 8 Story shorts | Story: Marcus and the blank page (fix: one bad sentence) | Marcus has an essay due Friday. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Wed 11-11 | AM | V31 | Parent | 5 Independence by age | What a 9-year-old can own | What a 9-year-old can own. | Free 5-Minute Homework Start Kit | BUILT, awaiting approval (week 3) |
-| Wed 11-11 | PM | V32 | Teen | 4 Phones & focus | A phone deal you'll actually keep | Make a phone deal you'll actually keep. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Thu 11-12 | AM | V33 | Parent | 8 Story shorts | Story: Priya's morning hunt (fix: where does it live?) | Every morning, Priya asks: Where's my...? | Free Parent Script Cards | BUILT, awaiting approval (week 3) |
-| Thu 11-12 | PM | V34 | Teen | 5 Independence by age | At 15, own your plan | At 15, you can own your plan. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Fri 11-13 | AM | V35 | Parent | 5 Independence by age | What a 12-year-old can own | What a 12-year-old can own. | Free 5-Minute Homework Start Kit | BUILT, awaiting approval (week 3) |
-| Fri 11-13 | PM | V36 | Teen | 8 Story shorts | Story: Diego's missing turn-in (fix: turn it in, then check) | Diego did it. Then forgot to turn it in. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Sat 11-14 | AM | V37 | Parent | 4 Phones & focus | Parent script: what would be a fair screen deal? | Instead of announcing the screen rule... | Free Parent Script Cards | BUILT, awaiting approval (week 3) |
-| Sat 11-14 | PM | V38 | Teen | 5 Independence by age | Chores are planning practice (the chore test) | Chores are planning practice. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Sun 11-15 | AM | V39 | Parent | 8 Story shorts | Story: Owen's five more minutes (fix: a visible timer) | Owen: Just five more minutes. | Free 5-Minute Homework Start Kit | BUILT, awaiting approval (week 3) |
-| Sun 11-15 | PM | V40 | Teen | 4 Phones & focus | Silence it before you start | Silence it before you start. | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
-| Mon 11-16 | AM | V41 | Parent | 5 Independence by age | Chores build planning | Chores build planning. | Free Parent Script Cards | BUILT, awaiting approval (week 3) |
-| Mon 11-16 | PM | V42 | Teen | 8 Story shorts | Story: Fatima's group project (fix: a name next to every step) | Fatima's group project is due. Who's doing what? | Executive Functioning Workbook for Teens | BUILT, awaiting approval (week 3) |
+| Tue 11-10 | AM | V29 | Parent | 6 Mindset | Let them fail small, safely | Let them fail small, safely. | Free Parent Script Cards | Approved |
+| Tue 11-10 | PM | V30 | Teen | 8 Story shorts | Story: Marcus and the blank page (fix: one bad sentence) | Marcus has an essay due Friday. | Executive Functioning Workbook for Teens | Approved |
+| Wed 11-11 | AM | V31 | Parent | 5 Independence by age | What a 9-year-old can own | What a 9-year-old can own. | Free 5-Minute Homework Start Kit | Approved |
+| Wed 11-11 | PM | V32 | Teen | 4 Phones & focus | A phone deal you'll actually keep | Make a phone deal you'll actually keep. | Executive Functioning Workbook for Teens | Approved |
+| Thu 11-12 | AM | V33 | Parent | 8 Story shorts | Story: Priya's morning hunt (fix: where does it live?) | Every morning, Priya asks: Where's my...? | Free Parent Script Cards | Approved |
+| Thu 11-12 | PM | V34 | Teen | 5 Independence by age | At 15, own your plan | At 15, you can own your plan. | Executive Functioning Workbook for Teens | Approved |
+| Fri 11-13 | AM | V35 | Parent | 5 Independence by age | What a 12-year-old can own | What a 12-year-old can own. | Free 5-Minute Homework Start Kit | Approved |
+| Fri 11-13 | PM | V36 | Teen | 8 Story shorts | Story: Diego's missing turn-in (fix: turn it in, then check) | Diego did it. Then forgot to turn it in. | Executive Functioning Workbook for Teens | Approved |
+| Sat 11-14 | AM | V37 | Parent | 4 Phones & focus | Parent script: what would be a fair screen deal? | Instead of announcing the screen rule... | Free Parent Script Cards | Approved |
+| Sat 11-14 | PM | V38 | Teen | 5 Independence by age | Chores are planning practice (the chore test) | Chores are planning practice. | Executive Functioning Workbook for Teens | Approved |
+| Sun 11-15 | AM | V39 | Parent | 8 Story shorts | Story: Owen's five more minutes (fix: a visible timer) | Owen: Just five more minutes. | Free 5-Minute Homework Start Kit | Approved |
+| Sun 11-15 | PM | V40 | Teen | 4 Phones & focus | Silence it before you start | Silence it before you start. | Executive Functioning Workbook for Teens | Approved |
+| Mon 11-16 | AM | V41 | Parent | 1 Parent scripts | Parent script: when your child says 'This is pointless' | When they say 'This is pointless.' | Free Parent Script Cards | Approved |
+| Mon 11-16 | PM | V42 | Teen | 8 Story shorts | Story: Fatima's group project (fix: a name next to every step) | Fatima's group project is due. Who's doing what? | Executive Functioning Workbook for Teens | Approved |

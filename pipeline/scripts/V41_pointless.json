@@ -1,0 +1,63 @@
+{
+ "id": "V41",
+ "title": "Parent Script #6: when they say 'This is pointless'",
+ "audience": "parent",
+ "theme": "1. Parent scripts",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.45,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #6",
+   "lines": [
+    "When they say",
+    "\"This is",
+    {
+     "t": "pointless.\"",
+     "hl": "pointless.\""
+    }
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "Which part feels pointless?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Skip the lecture…",
+     "hl": "Skip the lecture…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…get curious first.",
+     "hl": "get curious first."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "When your child says “This is pointless,” skip the lecture and get curious. Try: “Which part feels pointless?” You'll learn what's really in the way. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#homeschoolmom",
+   "#independentlearners"
+  ],
+  "yt_title": "“This Is Pointless”: What to Say (Parent Script)",
+  "pin_title": "What to Say When Your Child Says “This Is Pointless”",
+  "pin_desc": "A parent script for “This is pointless”: skip the lecture and ask “Which part feels pointless?” so you learn what's really in the way. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}
