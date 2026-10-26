@@ -44,7 +44,7 @@ rows=[]
 for i,(vid,aud,theme,topic,hook,cta) in enumerate(R):
     d = start + datetime.timedelta(days=i//2)
     rows.append(dict(Date=d.isoformat(), Day=d.strftime("%a"), Slot="AM" if i%2==0 else "PM", ID=vid, Audience=aud, Theme=theme,
-        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved" if int(vid[1:])<=6 else ("BUILT, awaiting approval (batch 3)" if int(vid[1:])<=14 else "Planned"))
+        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved" if int(vid[1:])<=6 else ("BUILT, awaiting approval (batch 3)" if int(vid[1:])<=14 else "Planned")))
 OUT.mkdir(exist_ok=True)
 with open(OUT/"content-calendar.csv","w",newline="") as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
