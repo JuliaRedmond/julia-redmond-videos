@@ -1,0 +1,68 @@
+{
+ "id": "V04",
+ "title": "Study Hack #2: shrink a big project to 3 steps",
+ "audience": "teen",
+ "theme": "3. Study skills",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.55,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STUDY HACK #2",
+   "lines": [
+    "Big project",
+    "feels",
+    {
+     "t": "huge?",
+     "hl": "huge?"
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Shrink it to 3 steps:"
+   ],
+   "items": [
+    "Name the finished project.",
+    "Split it into 3 parts.",
+    "Start with the smallest."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Three small steps",
+     "hl": "Three small steps"
+    },
+    "beat one giant project."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Big isn't the problem.",
+    {
+     "t": "Not seeing the steps is.",
+     "hl": "Not seeing the steps is."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "A big project feels huge until you see the steps. Name the finished project, split it into 3 parts, and start with the smallest. Three small steps beat one giant project. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#studyskills",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "Big Project? Break It Into 3 Steps (Study Hack)",
+  "pin_title": "How to Break a Big School Project Into 3 Steps",
+  "pin_desc": "Name the finished project, split it into 3 parts, start with the smallest. A simple planning move for teens from the Julia Redmond executive function series. See the Executive Functioning Workbook for Teens: 30 short sessions across six skills."
+ }
+}

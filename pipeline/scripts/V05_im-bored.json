@@ -1,0 +1,67 @@
+{
+ "id": "V05",
+ "title": "Parent Script #2: 'I'm bored'",
+ "audience": "parent",
+ "theme": "1. Parent scripts",
+ "skills": [
+  "PLAN"
+ ],
+ "focus": 0.5,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #2",
+   "lines": [
+    "Instead of fixing",
+    "\"I'm bored\"…"
+   ],
+   "strike": [
+    1
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "What's one thing you could try?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "You're not the",
+    {
+     "t": "entertainment director.",
+     "hl": "entertainment director."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "They choose…",
+     "hl": "They choose…"
+    },
+    {
+     "t": "…and the plan is theirs.",
+     "hl": "the plan is theirs."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "When “I'm bored” hits, you don't have to be the entertainment director. Try: “What's one thing you could try?” They choose, and the plan is theirs. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#imbored",
+   "#independentlearners"
+  ],
+  "yt_title": "“I'm Bored”: Say This Instead (Parent Script)",
+  "pin_title": "What to Say When Your Child Says “I'm Bored”",
+  "pin_desc": "A simple parent script for “I'm bored”: ask “What's one thing you could try?” so your child picks the plan and you stop being the entertainment director. Part of the Julia Redmond executive function series for parents of kids 9-13. Free Parent Script Cards available from Julia Redmond Publishing."
+ }
+}

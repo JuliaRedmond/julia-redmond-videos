@@ -20,6 +20,9 @@ const BOX_SEL='.label,.card,.sticky,.bigchip,#end .cta,#end img';
  const total=cfg.duration;
  if(total<MIN||total>MAXD)console.warn(`WARNING: duration ${total}s is outside the ${MIN}-${MAXD} s target`);
  if(check){let bad=0;
+  // CTA rule: parent resources (Start Kit, Parent Script Cards) are never the CTA on teen-facing videos, and vice versa
+  if(script.audience==='teen'&&!/Workbook for Teens/.test(script.cta)){bad++;console.log('CTA RULE: teen video must end on the Teens workbook, got:',script.cta)}
+  if(script.audience==='parent'&&/Teens/.test(script.cta)){bad++;console.log('CTA RULE: parent video must not end on the teen workbook, got:',script.cta)}
   const bounds=await pg.evaluate(()=>H.bounds);
   for(const b of bounds){bad++;console.log('OUTSIDE SAFE ZONE (top 250 / bottom 350 / sides 60):',b)}
   // text must never overlap, including mid-transition: sample every 1/20 s and test every visible pair

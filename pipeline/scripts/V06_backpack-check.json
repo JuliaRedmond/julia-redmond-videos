@@ -1,0 +1,68 @@
+{
+ "id": "V06",
+ "title": "Routine #2: 2-minute night-before backpack check",
+ "audience": "teen",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "ORGANIZE"
+ ],
+ "focus": 0.35,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #2",
+   "lines": [
+    "Backpack check",
+    "takes",
+    {
+     "t": "2 minutes.",
+     "hl": "2 minutes."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "The night before:"
+   ],
+   "items": [
+    "Charger and laptop in.",
+    "Homework in the folder.",
+    "Bag by the door."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Tomorrow-you",
+    {
+     "t": "has nothing to find.",
+     "hl": "nothing to find."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Two minutes tonight.",
+    {
+     "t": "Calmer morning.",
+     "hl": "Calmer morning."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Two minutes the night before: charger and laptop in, homework in the folder, bag by the door. Tomorrow-you has nothing to find. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#backpackcheck",
+   "#studytips",
+   "#executivefunction",
+   "#teenroutine"
+  ],
+  "yt_title": "2-Minute Backpack Check for a Calmer Morning",
+  "pin_title": "Night-Before Backpack Checklist for Teens",
+  "pin_desc": "Charger and laptop in, homework in the folder, bag by the door. A 2-minute night-before routine for teens from the Julia Redmond executive function series. See the Executive Functioning Workbook for Teens: 30 short sessions across six skills."
+ }
+}

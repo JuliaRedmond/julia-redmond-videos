@@ -31,6 +31,8 @@ beats[]: first beat is always a hook; the rest are in any order
 | `checks` | `header[]`, `items[]` (tick cards in the skill colour) |
 | `chips` | `skills[]` (six pills pop in one at a time; use for six-skill videos) |
 
+CTA rule (enforced by `--check`): teen-facing videos end on "Executive Functioning Workbook for Teens · link in bio"; parent-facing videos end on the Free Parent Script Cards or Free 5-Minute Homework Start Kit.
+
 Label series so far: PARENT SCRIPT #n, STUDY HACK #n, ROUTINE #n, HOMEWORK RULE #n.
 
 ## What's in `assets/` and `template/`
