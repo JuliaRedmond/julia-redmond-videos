@@ -1,9 +1,9 @@
-# V01 - Say this, not that: the very first step
+# V01 - Parent Script #1: the very first step
 
 - Audience: parent
 - Theme: 1. Parent scripts
-- Length: 27.2 s, 1080x1920, silent (add trending audio in-app)
-- On-screen CTA: Free Parent Script Cards (Link in bio). No URL on screen; add the landing-page link only once approved.
+- Length: 20.0 s, 1080x1920, original synthesized ragtime track (no samples; swap for a trending sound in-app if you like)
+- On-screen CTA: Free Parent Script Cards · link in bio. No URL on screen; add the landing-page link only once supplied.
 
 ## Caption (TikTok / Instagram / Facebook)
 

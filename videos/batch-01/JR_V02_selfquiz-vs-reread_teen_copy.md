@@ -1,9 +1,9 @@
-# V02 - Self-quizzing beats rereading
+# V02 - Study Hack #1: self-quiz instead of rereading
 
 - Audience: teen
 - Theme: 3. Study skills
-- Length: 26.7 s, 1080x1920, silent (add trending audio in-app)
-- On-screen CTA: Free 5-Minute Homework Start Kit (Link in bio). No URL on screen; add the landing-page link only once approved.
+- Length: 24.0 s, 1080x1920, original synthesized ragtime track (no samples; swap for a trending sound in-app if you like)
+- On-screen CTA: Free 5-Minute Homework Start Kit · link in bio. No URL on screen; add the landing-page link only once supplied.
 
 ## Caption (TikTok / Instagram / Facebook)
 
