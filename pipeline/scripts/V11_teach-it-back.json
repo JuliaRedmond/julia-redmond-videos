@@ -1,0 +1,63 @@
+{
+ "id": "V11",
+ "title": "Parent Script #4: teach it back",
+ "audience": "parent",
+ "theme": "3. Study skills",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.5,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #4",
+   "lines": [
+    "Instead of",
+    "quizzing them…"
+   ],
+   "strike": [
+    1
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "Can you teach this to me?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "Teaching it back shows",
+     "hl": "Teaching it back"
+    },
+    "what they know…"
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…and what's still fuzzy.",
+     "hl": "what's still fuzzy."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Instead of quizzing them, try: “Can you teach this to me?” Teaching it back shows what they know and what's still fuzzy, and you don't have to ask 20 questions. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Help Your Child Study: Say “Teach This to Me” (Parent Script)",
+  "pin_title": "How to Help Kids Study: Ask Them to Teach It Back",
+  "pin_desc": "A parent script for study time: ask “Can you teach this to me?” Explaining it back shows what your child knows and what is still fuzzy. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

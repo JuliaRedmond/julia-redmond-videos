@@ -1,0 +1,64 @@
+{
+ "id": "V09",
+ "title": "Parent Script #3: stop being the alarm clock",
+ "audience": "parent",
+ "theme": "1. Parent scripts",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.3,
+ "cta": "Free Parent Script Cards · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "PARENT SCRIPT #3",
+   "lines": [
+    "Instead of",
+    "being the alarm",
+    "clock…"
+   ],
+   "strike": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "try",
+   "label": "SAY",
+   "note": "What would help you wake up on time?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "They pick the plan…",
+     "hl": "They pick the plan…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…and the wake-up is theirs.",
+     "hl": "the wake-up is theirs."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Tired of being the family alarm clock? Try: “What would help you wake up on time?” They pick the plan, and the wake-up is theirs. Free Parent Script Cards: link in bio.",
+  "hashtags": [
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#morningroutine",
+   "#independentlearners"
+  ],
+  "yt_title": "Stop Being the Family Alarm Clock (Parent Script)",
+  "pin_title": "What to Say Instead of Nagging Kids to Wake Up",
+  "pin_desc": "A parent script for mornings: ask “What would help you wake up on time?” so your child picks the plan and you stop being the alarm clock. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "V12",
+ "title": "Study Hack #4: one sentence per page",
+ "audience": "teen",
+ "theme": "3. Study skills",
+ "skills": [
+  "FOCUS"
+ ],
+ "focus": 0.35,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "STUDY HACK #4",
+   "lines": [
+    "Read it.",
+    "Forgot it.",
+    {
+     "t": "Sound familiar?",
+     "hl": "Sound familiar?"
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Try this:"
+   ],
+   "items": [
+    "Read one page.",
+    "Look away.",
+    "Say it in one sentence."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Can't say it?",
+    {
+     "t": "Read that page again.",
+     "hl": "Read that page again."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "That's not failing.",
+    {
+     "t": "That's the signal.",
+     "hl": "That's the signal."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Read it, forgot it? Read one page, look away, and say it in one sentence. Can't say it? Read that page again. That's not failing, that's the signal. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#studyskills",
+   "#executivefunction",
+   "#teenstudytips"
+  ],
+  "yt_title": "How to Remember What You Read: One Sentence Per Page",
+  "pin_title": "How to Remember What You Read: A 1-Sentence Study Trick",
+  "pin_desc": "Read one page, look away, say it in one sentence. A simple study habit for teens from the Julia Redmond executive function series."
+ }
+}

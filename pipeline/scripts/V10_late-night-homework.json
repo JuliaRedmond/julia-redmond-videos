@@ -1,0 +1,68 @@
+{
+ "id": "V10",
+ "title": "Routine #4: dodge the late-night homework trap",
+ "audience": "teen",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "TIME"
+ ],
+ "focus": 0.45,
+ "cta": "Executive Functioning Workbook for Teens · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #4",
+   "lines": [
+    "Late-night",
+    "homework",
+    {
+     "t": "trap?",
+     "hl": "trap?"
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "Dodge it:"
+   ],
+   "items": [
+    "Pick a start-by time.",
+    "Write tonight's must-do.",
+    "Stop when time's up."
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Starting a bit earlier",
+    {
+     "t": "beats staying up later.",
+     "hl": "beats staying up later."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    "Future you",
+    {
+     "t": "will say thanks.",
+     "hl": "will say thanks."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Homework at 11pm? Dodge the late-night trap: pick a start-by time, write tonight's must-do, and stop when time's up. Starting a bit earlier beats staying up later. Executive Functioning Workbook for Teens (30 short sessions, 6 skills): link in bio.",
+  "hashtags": [
+   "#studytips",
+   "#timemanagement",
+   "#executivefunction",
+   "#teenroutine"
+  ],
+  "yt_title": "Stop Doing Homework at 11pm: 3 Simple Rules",
+  "pin_title": "How to Stop Late-Night Homework: A Start-By Time for Teens",
+  "pin_desc": "Pick a start-by time, write tonight's must-do, stop when time's up. A simple evening routine for teens from the Julia Redmond executive function series."
+ }
+}

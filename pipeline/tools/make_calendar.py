@@ -15,11 +15,11 @@ R = [
  ("V04",T,"3 Study skills","Shrink a big project to 3 steps","Big project feels huge?",WB),
  ("V05",P,"1 Parent scripts","'I'm bored': say this, not that","Instead of fixing 'I'm bored'...",CARDS),
  ("V06",T,"2 Routines","Night-before backpack check (2 minutes)","Backpack check takes 2 minutes.",WB),
- ("V07",P,"2 Routines","Mornings: the checklist is the alarm clock","Let a list do the nagging.",CARDS),
+ ("V07",P,"2 Routines","Mornings: let the checklist do the nagging","Let a list do the nagging.",CARDS),
  ("V08",T,"3 Study skills","Emailing a teacher (3-line template)","Scared to email your teacher? Three lines is enough.",WB),
  ("V09",P,"1 Parent scripts","Stop being the family alarm clock","Hand the wake-up job over, with a plan.",CARDS),
  ("V10",T,"2 Routines","Sleep vs late-night homework","The 11pm homework trap and how to dodge it.",WB),
- ("V11",P,"3 Study skills","Help them self-quiz (don't quiz for them)","Ask them to teach it to you.",CARDS),
+ ("V11",P,"3 Study skills","Study help: ask them to teach it back","Instead of quizzing them...",CARDS),
  ("V12",T,"3 Study skills","Remember what you read","One-sentence summary after every page.",WB),
  ("V13",P,"2 Routines","Sunday 10-minute family reset","Ten minutes Sunday saves Monday.",CARDS),
  ("V14",T,"2 Routines","Pick your 3 must-dos for the week","Don't plan everything. Pick three.",WB),
@@ -44,7 +44,7 @@ rows=[]
 for i,(vid,aud,theme,topic,hook,cta) in enumerate(R):
     d = start + datetime.timedelta(days=i//2)
     rows.append(dict(Date=d.isoformat(), Day=d.strftime("%a"), Slot="AM" if i%2==0 else "PM", ID=vid, Audience=aud, Theme=theme,
-        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved (batch 1)" if vid in("V01","V02") else ("BUILT, awaiting approval (batch 2)" if vid in("V03","V04","V05","V06") else "Planned")))
+        Topic=topic, Hook_idea=hook, CTA=cta, Status="Approved" if int(vid[1:])<=6 else ("BUILT, awaiting approval (batch 3)" if int(vid[1:])<=14 else "Planned")))
 OUT.mkdir(exist_ok=True)
 with open(OUT/"content-calendar.csv","w",newline="") as f:
     w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)

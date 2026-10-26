@@ -1,0 +1,73 @@
+{
+ "id": "V07",
+ "title": "Routine #3: the checklist is the alarm clock",
+ "audience": "parent",
+ "theme": "2. Everyday routines",
+ "skills": [
+  "START"
+ ],
+ "focus": 0.4,
+ "cta": "Free 5-Minute Homework Start Kit · link in bio",
+ "beats": [
+  {
+   "type": "hook",
+   "label": "ROUTINE #3",
+   "lines": [
+    "Let a list",
+    {
+     "t": "do the nagging.",
+     "hl": "do the nagging."
+    }
+   ]
+  },
+  {
+   "type": "checks",
+   "header": [
+    "A 3-line morning list:"
+   ],
+   "items": [
+    "Dressed and fed.",
+    "Teeth and hair.",
+    "Bag by the door."
+   ]
+  },
+  {
+   "type": "try",
+   "label": "ASK",
+   "note": "What's next on your list?",
+   "pre": [],
+   "post": []
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "The list reminds them…",
+     "hl": "The list reminds them…"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "lines": [
+    {
+     "t": "…so you can cheer instead.",
+     "hl": "you can cheer instead."
+    }
+   ]
+  }
+ ],
+ "copy": {
+  "caption": "Mornings run smoother when the list does the nagging. Try a 3-line checklist (dressed and fed, teeth and hair, bag by the door) and ask “What's next on your list?” instead of reminding. The list reminds them, so you can cheer. Free 5-Minute Homework Start Kit: link in bio.",
+  "hashtags": [
+   "#morningroutine",
+   "#executivefunction",
+   "#homeschoolparent",
+   "#parentingtips",
+   "#independentlearners"
+  ],
+  "yt_title": "Morning Routine: Let a Checklist Do the Nagging",
+  "pin_title": "Simple Morning Checklist for Kids (Less Nagging)",
+  "pin_desc": "A 3-line morning checklist plus one question, “What's next on your list?”, so the list does the reminding. For parents of kids 9-13, from the Julia Redmond executive function series."
+ }
+}
